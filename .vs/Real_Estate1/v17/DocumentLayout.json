@@ -1,0 +1,415 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|c:\\users\\jex\\source\\repos\\real_estate1\\real_estate1\\main_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|solutionrelative:real_estate1\\main_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|c:\\users\\jex\\source\\repos\\real_estate1\\real_estate1\\login_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|solutionrelative:real_estate1\\login_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|c:\\users\\jex\\source\\repos\\real_estate1\\real_estate1\\login_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|solutionrelative:real_estate1\\login_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|c:\\users\\jex\\source\\repos\\real_estate1\\real_estate1\\main_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|solutionrelative:real_estate1\\main_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|c:\\users\\jex\\source\\repos\\real_estate1\\real_estate1\\propertyimages_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|solutionrelative:real_estate1\\propertyimages_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|c:\\users\\jex\\source\\repos\\real_estate1\\real_estate1\\sales_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|solutionrelative:real_estate1\\sales_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|c:\\users\\jex\\source\\repos\\real_estate1\\real_estate1\\propertyimages_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|solutionrelative:real_estate1\\propertyimages_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|c:\\users\\jex\\source\\repos\\real_estate1\\real_estate1\\propertytypeform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|solutionrelative:real_estate1\\propertytypeform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|c:\\users\\jex\\source\\repos\\real_estate1\\real_estate1\\clientsform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|solutionrelative:real_estate1\\clientsform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|c:\\users\\jex\\source\\repos\\real_estate1\\real_estate1\\clientsform.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|solutionrelative:real_estate1\\clientsform.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|c:\\users\\jex\\source\\repos\\real_estate1\\real_estate1\\propertyform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|solutionrelative:real_estate1\\propertyform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|c:\\users\\jex\\source\\repos\\real_estate1\\real_estate1\\ownersform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|solutionrelative:real_estate1\\ownersform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|c:\\users\\jex\\source\\repos\\real_estate1\\real_estate1\\ownersform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|solutionrelative:real_estate1\\ownersform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|c:\\users\\jex\\source\\repos\\real_estate1\\real_estate1\\propertieslist_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|solutionrelative:real_estate1\\propertieslist_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|c:\\users\\jex\\source\\repos\\real_estate1\\real_estate1\\propertyform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|solutionrelative:real_estate1\\propertyform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|c:\\users\\jex\\source\\repos\\real_estate1\\real_estate1\\propertieslist_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|solutionrelative:real_estate1\\propertieslist_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|c:\\users\\jex\\source\\repos\\real_estate1\\real_estate1\\ownerslist_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|solutionrelative:real_estate1\\ownerslist_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|c:\\users\\jex\\source\\repos\\real_estate1\\real_estate1\\ownerslist_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|solutionrelative:real_estate1\\ownerslist_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|c:\\users\\jex\\source\\repos\\real_estate1\\real_estate1\\clientsform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|solutionrelative:real_estate1\\clientsform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|c:\\users\\jex\\source\\repos\\real_estate1\\real_estate1\\classes\\myfunction.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|solutionrelative:real_estate1\\classes\\myfunction.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|c:\\users\\jex\\source\\repos\\real_estate1\\real_estate1\\classes\\the_property.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|solutionrelative:real_estate1\\classes\\the_property.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|c:\\users\\jex\\source\\repos\\real_estate1\\real_estate1\\classes\\the_type.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|solutionrelative:real_estate1\\classes\\the_type.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|c:\\users\\jex\\source\\repos\\real_estate1\\real_estate1\\classes\\database.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|solutionrelative:real_estate1\\classes\\database.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|c:\\users\\jex\\source\\repos\\real_estate1\\real_estate1\\login_form.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F1D16C70-EC39-48BB-BD32-D4A502F5E7BD}|Real_Estate1\\Real_Estate1.vbproj|solutionrelative:real_estate1\\login_form.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Main_Form.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\Main_Form.vb",
+              "RelativeDocumentMoniker": "Real_Estate1\\Main_Form.vb",
+              "ToolTip": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\Main_Form.vb [Design]",
+              "RelativeToolTip": "Real_Estate1\\Main_Form.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-07T06:57:50.011Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main_Form.vb",
+              "DocumentMoniker": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\Main_Form.vb",
+              "RelativeDocumentMoniker": "Real_Estate1\\Main_Form.vb",
+              "ToolTip": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\Main_Form.vb",
+              "RelativeToolTip": "Real_Estate1\\Main_Form.vb",
+              "ViewState": "AgIAADcAAAAAAAAAAAAvwEAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-12T09:59:09.192Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login_Form.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\Login_Form.vb",
+              "RelativeDocumentMoniker": "Real_Estate1\\Login_Form.vb",
+              "ToolTip": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\Login_Form.vb [Design]",
+              "RelativeToolTip": "Real_Estate1\\Login_Form.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-09T05:44:00.328Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Sales_Form.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\Sales_Form.vb",
+              "RelativeDocumentMoniker": "Real_Estate1\\Sales_Form.vb",
+              "ToolTip": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\Sales_Form.vb [Design]",
+              "RelativeToolTip": "Real_Estate1\\Sales_Form.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-13T06:49:20.6Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login_Form.vb",
+              "DocumentMoniker": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\Login_Form.vb",
+              "RelativeDocumentMoniker": "Real_Estate1\\Login_Form.vb",
+              "ToolTip": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\Login_Form.vb",
+              "RelativeToolTip": "Real_Estate1\\Login_Form.vb",
+              "ViewState": "AgIAADwAAAAAAAAAAAD4v0sAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-09T05:44:24.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PropertyImages_Form.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\PropertyImages_Form.vb",
+              "RelativeDocumentMoniker": "Real_Estate1\\PropertyImages_Form.vb",
+              "ToolTip": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\PropertyImages_Form.vb [Design]",
+              "RelativeToolTip": "Real_Estate1\\PropertyImages_Form.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-13T06:47:20.22Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PropertyImages_Form.vb",
+              "DocumentMoniker": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\PropertyImages_Form.vb",
+              "RelativeDocumentMoniker": "Real_Estate1\\PropertyImages_Form.vb",
+              "ToolTip": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\PropertyImages_Form.vb",
+              "RelativeToolTip": "Real_Estate1\\PropertyImages_Form.vb",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAawBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-13T06:48:07.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PropertyTypeForm.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\PropertyTypeForm.vb",
+              "RelativeDocumentMoniker": "Real_Estate1\\PropertyTypeForm.vb",
+              "ToolTip": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\PropertyTypeForm.vb [Design]",
+              "RelativeToolTip": "Real_Estate1\\PropertyTypeForm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-13T06:46:47.303Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PropertyForm.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\PropertyForm.vb",
+              "RelativeDocumentMoniker": "Real_Estate1\\PropertyForm.vb",
+              "ToolTip": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\PropertyForm.vb [Design]",
+              "RelativeToolTip": "Real_Estate1\\PropertyForm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-12T08:12:11.637Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClientsForm.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\ClientsForm.Designer.vb",
+              "RelativeDocumentMoniker": "Real_Estate1\\ClientsForm.Designer.vb",
+              "ToolTip": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\ClientsForm.Designer.vb",
+              "RelativeToolTip": "Real_Estate1\\ClientsForm.Designer.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-12T09:52:08.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClientsForm.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\ClientsForm.vb",
+              "RelativeDocumentMoniker": "Real_Estate1\\ClientsForm.vb",
+              "ToolTip": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\ClientsForm.vb [Design]",
+              "RelativeToolTip": "Real_Estate1\\ClientsForm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-12T11:42:24.563Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OwnersForm.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\OwnersForm.vb",
+              "RelativeDocumentMoniker": "Real_Estate1\\OwnersForm.vb",
+              "ToolTip": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\OwnersForm.vb [Design]",
+              "RelativeToolTip": "Real_Estate1\\OwnersForm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-12T10:11:44.2Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OwnersForm.vb",
+              "DocumentMoniker": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\OwnersForm.vb",
+              "RelativeDocumentMoniker": "Real_Estate1\\OwnersForm.vb",
+              "ToolTip": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\OwnersForm.vb",
+              "RelativeToolTip": "Real_Estate1\\OwnersForm.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA+wAUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-12T10:11:47.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PropertiesList_Form.vb",
+              "DocumentMoniker": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\PropertiesList_Form.vb",
+              "RelativeDocumentMoniker": "Real_Estate1\\PropertiesList_Form.vb",
+              "ToolTip": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\PropertiesList_Form.vb",
+              "RelativeToolTip": "Real_Estate1\\PropertiesList_Form.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA+wAIAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-12T13:35:30.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PropertyForm.vb",
+              "DocumentMoniker": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\PropertyForm.vb",
+              "RelativeDocumentMoniker": "Real_Estate1\\PropertyForm.vb",
+              "ToolTip": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\PropertyForm.vb",
+              "RelativeToolTip": "Real_Estate1\\PropertyForm.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-12T08:14:48.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PropertiesList_Form.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\PropertiesList_Form.vb",
+              "RelativeDocumentMoniker": "Real_Estate1\\PropertiesList_Form.vb",
+              "ToolTip": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\PropertiesList_Form.vb [Design]",
+              "RelativeToolTip": "Real_Estate1\\PropertiesList_Form.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-12T13:29:25.934Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OwnersList_Form.vb",
+              "DocumentMoniker": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\OwnersList_Form.vb",
+              "RelativeDocumentMoniker": "Real_Estate1\\OwnersList_Form.vb",
+              "ToolTip": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\OwnersList_Form.vb",
+              "RelativeToolTip": "Real_Estate1\\OwnersList_Form.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-12T11:15:26.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OwnersList_Form.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\OwnersList_Form.vb",
+              "RelativeDocumentMoniker": "Real_Estate1\\OwnersList_Form.vb",
+              "ToolTip": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\OwnersList_Form.vb [Design]",
+              "RelativeToolTip": "Real_Estate1\\OwnersList_Form.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-12T10:59:58.742Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ClientsForm.vb",
+              "DocumentMoniker": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\ClientsForm.vb",
+              "RelativeDocumentMoniker": "Real_Estate1\\ClientsForm.vb",
+              "ToolTip": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\ClientsForm.vb",
+              "RelativeToolTip": "Real_Estate1\\ClientsForm.vb",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAACkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-12T13:18:12.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MYFUNCTION.vb",
+              "DocumentMoniker": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\classes\\MYFUNCTION.vb",
+              "RelativeDocumentMoniker": "Real_Estate1\\classes\\MYFUNCTION.vb",
+              "ToolTip": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\classes\\MYFUNCTION.vb",
+              "RelativeToolTip": "Real_Estate1\\classes\\MYFUNCTION.vb",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-12T08:22:39.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "The_Property.vb",
+              "DocumentMoniker": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\classes\\The_Property.vb",
+              "RelativeDocumentMoniker": "Real_Estate1\\classes\\The_Property.vb",
+              "ToolTip": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\classes\\The_Property.vb",
+              "RelativeToolTip": "Real_Estate1\\classes\\The_Property.vb",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-12T08:15:32.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "The_Type.vb",
+              "DocumentMoniker": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\classes\\The_Type.vb",
+              "RelativeDocumentMoniker": "Real_Estate1\\classes\\The_Type.vb",
+              "ToolTip": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\classes\\The_Type.vb",
+              "RelativeToolTip": "Real_Estate1\\classes\\The_Type.vb",
+              "ViewState": "AgIAABYAAAAAAAAAAAAuwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-12T09:17:13.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Database.vb",
+              "DocumentMoniker": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\classes\\Database.vb",
+              "RelativeDocumentMoniker": "Real_Estate1\\classes\\Database.vb",
+              "ToolTip": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\classes\\Database.vb",
+              "RelativeToolTip": "Real_Estate1\\classes\\Database.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-09T05:41:09.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Login_Form.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\Login_Form.Designer.vb",
+              "RelativeDocumentMoniker": "Real_Estate1\\Login_Form.Designer.vb",
+              "ToolTip": "C:\\Users\\Jex\\source\\repos\\Real_Estate1\\Real_Estate1\\Login_Form.Designer.vb",
+              "RelativeToolTip": "Real_Estate1\\Login_Form.Designer.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-09T05:44:06.255Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
