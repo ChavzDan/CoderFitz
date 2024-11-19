@@ -55,19 +55,22 @@ Partial Class OwnersForm
         ' 
         ' Panel1
         ' 
+        Panel1.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
         Panel1.BackColor = Color.FromArgb(CByte(42), CByte(72), CByte(78))
         Panel1.Controls.Add(Panel3)
         Panel1.Controls.Add(Panel2)
         Panel1.Controls.Add(Label1)
         Panel1.Controls.Add(PictureBox1)
         Panel1.Font = New Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Panel1.Location = New Point(26, -9)
+        Panel1.Location = New Point(18, -5)
+        Panel1.Margin = New Padding(2, 2, 2, 2)
         Panel1.Name = "Panel1"
-        Panel1.Size = New Size(1331, 825)
+        Panel1.Size = New Size(932, 495)
         Panel1.TabIndex = 0
         ' 
         ' Panel3
         ' 
+        Panel3.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         Panel3.BackColor = Color.FromArgb(CByte(168), CByte(216), CByte(205))
         Panel3.Controls.Add(ButtonSHOW_OWNER_PROPERTIES)
         Panel3.Controls.Add(ButtonCLEAR_FIELDS)
@@ -87,9 +90,10 @@ Partial Class OwnersForm
         Panel3.Controls.Add(Label3)
         Panel3.Controls.Add(TextBoxID)
         Panel3.Controls.Add(Label2)
-        Panel3.Location = New Point(3, 132)
+        Panel3.Location = New Point(2, 79)
+        Panel3.Margin = New Padding(2, 2, 2, 2)
         Panel3.Name = "Panel3"
-        Panel3.Size = New Size(1318, 691)
+        Panel3.Size = New Size(923, 416)
         Panel3.TabIndex = 3
         ' 
         ' ButtonSHOW_OWNER_PROPERTIES
@@ -97,9 +101,10 @@ Partial Class OwnersForm
         ButtonSHOW_OWNER_PROPERTIES.BackColor = Color.FromArgb(CByte(55), CByte(115), CByte(117))
         ButtonSHOW_OWNER_PROPERTIES.Font = New Font("Century Gothic", 12F, FontStyle.Bold)
         ButtonSHOW_OWNER_PROPERTIES.ForeColor = Color.White
-        ButtonSHOW_OWNER_PROPERTIES.Location = New Point(561, 498)
+        ButtonSHOW_OWNER_PROPERTIES.Location = New Point(393, 299)
+        ButtonSHOW_OWNER_PROPERTIES.Margin = New Padding(2, 2, 2, 2)
         ButtonSHOW_OWNER_PROPERTIES.Name = "ButtonSHOW_OWNER_PROPERTIES"
-        ButtonSHOW_OWNER_PROPERTIES.Size = New Size(653, 71)
+        ButtonSHOW_OWNER_PROPERTIES.Size = New Size(457, 43)
         ButtonSHOW_OWNER_PROPERTIES.TabIndex = 17
         ButtonSHOW_OWNER_PROPERTIES.Text = "View Owner Properties"
         ButtonSHOW_OWNER_PROPERTIES.UseVisualStyleBackColor = False
@@ -110,9 +115,10 @@ Partial Class OwnersForm
         ButtonCLEAR_FIELDS.Cursor = Cursors.Hand
         ButtonCLEAR_FIELDS.Font = New Font("Century Gothic", 11F, FontStyle.Bold)
         ButtonCLEAR_FIELDS.ForeColor = Color.White
-        ButtonCLEAR_FIELDS.Location = New Point(28, 601)
+        ButtonCLEAR_FIELDS.Location = New Point(20, 361)
+        ButtonCLEAR_FIELDS.Margin = New Padding(2, 2, 2, 2)
         ButtonCLEAR_FIELDS.Name = "ButtonCLEAR_FIELDS"
-        ButtonCLEAR_FIELDS.Size = New Size(438, 62)
+        ButtonCLEAR_FIELDS.Size = New Size(307, 37)
         ButtonCLEAR_FIELDS.TabIndex = 16
         ButtonCLEAR_FIELDS.Text = "Clear Fields"
         ButtonCLEAR_FIELDS.UseVisualStyleBackColor = False
@@ -123,9 +129,10 @@ Partial Class OwnersForm
         ButtonREMOVE.Cursor = Cursors.Hand
         ButtonREMOVE.Font = New Font("Century Gothic", 11F, FontStyle.Bold)
         ButtonREMOVE.ForeColor = Color.White
-        ButtonREMOVE.Location = New Point(315, 524)
+        ButtonREMOVE.Location = New Point(220, 314)
+        ButtonREMOVE.Margin = New Padding(2, 2, 2, 2)
         ButtonREMOVE.Name = "ButtonREMOVE"
-        ButtonREMOVE.Size = New Size(151, 71)
+        ButtonREMOVE.Size = New Size(106, 43)
         ButtonREMOVE.TabIndex = 15
         ButtonREMOVE.Text = "DELETE"
         ButtonREMOVE.UseVisualStyleBackColor = False
@@ -136,9 +143,10 @@ Partial Class OwnersForm
         ButtonEDIT.Cursor = Cursors.Hand
         ButtonEDIT.Font = New Font("Century Gothic", 11F, FontStyle.Bold)
         ButtonEDIT.ForeColor = Color.White
-        ButtonEDIT.Location = New Point(170, 524)
+        ButtonEDIT.Location = New Point(119, 314)
+        ButtonEDIT.Margin = New Padding(2, 2, 2, 2)
         ButtonEDIT.Name = "ButtonEDIT"
-        ButtonEDIT.Size = New Size(142, 71)
+        ButtonEDIT.Size = New Size(99, 43)
         ButtonEDIT.TabIndex = 14
         ButtonEDIT.Text = "EDIT"
         ButtonEDIT.UseVisualStyleBackColor = False
@@ -149,9 +157,10 @@ Partial Class OwnersForm
         ButtonADD.Cursor = Cursors.Hand
         ButtonADD.Font = New Font("Century Gothic", 11F, FontStyle.Bold)
         ButtonADD.ForeColor = Color.White
-        ButtonADD.Location = New Point(28, 524)
+        ButtonADD.Location = New Point(20, 314)
+        ButtonADD.Margin = New Padding(2, 2, 2, 2)
         ButtonADD.Name = "ButtonADD"
-        ButtonADD.Size = New Size(136, 71)
+        ButtonADD.Size = New Size(95, 43)
         ButtonADD.TabIndex = 13
         ButtonADD.Text = "ADD"
         ButtonADD.UseVisualStyleBackColor = False
@@ -159,21 +168,24 @@ Partial Class OwnersForm
         ' DataGridViewOWNERS
         ' 
         DataGridViewOWNERS.AllowUserToAddRows = False
+        DataGridViewOWNERS.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
         DataGridViewOWNERS.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells
         DataGridViewOWNERS.BackgroundColor = Color.WhiteSmoke
         DataGridViewOWNERS.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridViewOWNERS.Location = New Point(465, 23)
+        DataGridViewOWNERS.Location = New Point(326, 14)
+        DataGridViewOWNERS.Margin = New Padding(2, 2, 2, 2)
         DataGridViewOWNERS.Name = "DataGridViewOWNERS"
         DataGridViewOWNERS.RowHeadersWidth = 62
-        DataGridViewOWNERS.Size = New Size(850, 469)
+        DataGridViewOWNERS.Size = New Size(595, 281)
         DataGridViewOWNERS.TabIndex = 12
         ' 
         ' TextBoxADDRESS
         ' 
-        TextBoxADDRESS.Location = New Point(179, 366)
+        TextBoxADDRESS.Location = New Point(125, 220)
+        TextBoxADDRESS.Margin = New Padding(2, 2, 2, 2)
         TextBoxADDRESS.Multiline = True
         TextBoxADDRESS.Name = "TextBoxADDRESS"
-        TextBoxADDRESS.Size = New Size(249, 126)
+        TextBoxADDRESS.Size = New Size(176, 77)
         TextBoxADDRESS.TabIndex = 11
         ' 
         ' Label7
@@ -181,18 +193,20 @@ Partial Class OwnersForm
         Label7.AutoSize = True
         Label7.Font = New Font("Century Gothic", 13F, FontStyle.Bold)
         Label7.ForeColor = Color.Black
-        Label7.Location = New Point(52, 365)
+        Label7.Location = New Point(36, 219)
+        Label7.Margin = New Padding(2, 0, 2, 0)
         Label7.Name = "Label7"
-        Label7.Size = New Size(120, 30)
+        Label7.Size = New Size(86, 22)
         Label7.TabIndex = 10
         Label7.Text = "Address:"
         ' 
         ' TextBoxMAIL
         ' 
-        TextBoxMAIL.Location = New Point(179, 295)
+        TextBoxMAIL.Location = New Point(125, 177)
+        TextBoxMAIL.Margin = New Padding(2, 2, 2, 2)
         TextBoxMAIL.Multiline = True
         TextBoxMAIL.Name = "TextBoxMAIL"
-        TextBoxMAIL.Size = New Size(249, 56)
+        TextBoxMAIL.Size = New Size(176, 35)
         TextBoxMAIL.TabIndex = 9
         ' 
         ' Label6
@@ -200,18 +214,20 @@ Partial Class OwnersForm
         Label6.AutoSize = True
         Label6.Font = New Font("Century Gothic", 13F, FontStyle.Bold)
         Label6.ForeColor = Color.Black
-        Label6.Location = New Point(73, 308)
+        Label6.Location = New Point(51, 185)
+        Label6.Margin = New Padding(2, 0, 2, 0)
         Label6.Name = "Label6"
-        Label6.Size = New Size(87, 30)
+        Label6.Size = New Size(61, 22)
         Label6.TabIndex = 8
         Label6.Text = "Email:"
         ' 
         ' TextBoxPHONE
         ' 
-        TextBoxPHONE.Location = New Point(179, 222)
+        TextBoxPHONE.Location = New Point(125, 133)
+        TextBoxPHONE.Margin = New Padding(2, 2, 2, 2)
         TextBoxPHONE.Multiline = True
         TextBoxPHONE.Name = "TextBoxPHONE"
-        TextBoxPHONE.Size = New Size(249, 55)
+        TextBoxPHONE.Size = New Size(176, 35)
         TextBoxPHONE.TabIndex = 7
         ' 
         ' Label5
@@ -219,18 +235,20 @@ Partial Class OwnersForm
         Label5.AutoSize = True
         Label5.Font = New Font("Century Gothic", 13F, FontStyle.Bold)
         Label5.ForeColor = Color.Black
-        Label5.Location = New Point(68, 238)
+        Label5.Location = New Point(48, 143)
+        Label5.Margin = New Padding(2, 0, 2, 0)
         Label5.Name = "Label5"
-        Label5.Size = New Size(101, 30)
+        Label5.Size = New Size(71, 22)
         Label5.TabIndex = 6
         Label5.Text = "Phone:"
         ' 
         ' TextBoxlNAME
         ' 
-        TextBoxlNAME.Location = New Point(179, 147)
+        TextBoxlNAME.Location = New Point(125, 88)
+        TextBoxlNAME.Margin = New Padding(2, 2, 2, 2)
         TextBoxlNAME.Multiline = True
         TextBoxlNAME.Name = "TextBoxlNAME"
-        TextBoxlNAME.Size = New Size(249, 56)
+        TextBoxlNAME.Size = New Size(176, 35)
         TextBoxlNAME.TabIndex = 5
         ' 
         ' Label4
@@ -238,18 +256,20 @@ Partial Class OwnersForm
         Label4.AutoSize = True
         Label4.Font = New Font("Century Gothic", 13F, FontStyle.Bold)
         Label4.ForeColor = Color.Black
-        Label4.Location = New Point(20, 164)
+        Label4.Location = New Point(14, 98)
+        Label4.Margin = New Padding(2, 0, 2, 0)
         Label4.Name = "Label4"
-        Label4.Size = New Size(151, 30)
+        Label4.Size = New Size(107, 22)
         Label4.TabIndex = 4
         Label4.Text = "Last Name:"
         ' 
         ' TextBoxfNAME
         ' 
-        TextBoxfNAME.Location = New Point(179, 78)
+        TextBoxfNAME.Location = New Point(125, 47)
+        TextBoxfNAME.Margin = New Padding(2, 2, 2, 2)
         TextBoxfNAME.Multiline = True
         TextBoxfNAME.Name = "TextBoxfNAME"
-        TextBoxfNAME.Size = New Size(249, 54)
+        TextBoxfNAME.Size = New Size(176, 34)
         TextBoxfNAME.TabIndex = 3
         ' 
         ' Label3
@@ -257,18 +277,20 @@ Partial Class OwnersForm
         Label3.AutoSize = True
         Label3.Font = New Font("Century Gothic", 13F, FontStyle.Bold)
         Label3.ForeColor = Color.Black
-        Label3.Location = New Point(20, 91)
+        Label3.Location = New Point(14, 55)
+        Label3.Margin = New Padding(2, 0, 2, 0)
         Label3.Name = "Label3"
-        Label3.Size = New Size(149, 30)
+        Label3.Size = New Size(106, 22)
         Label3.TabIndex = 2
         Label3.Text = "First Name:"
         ' 
         ' TextBoxID
         ' 
-        TextBoxID.Location = New Point(179, 23)
+        TextBoxID.Location = New Point(125, 14)
+        TextBoxID.Margin = New Padding(2, 2, 2, 2)
         TextBoxID.Multiline = True
         TextBoxID.Name = "TextBoxID"
-        TextBoxID.Size = New Size(249, 40)
+        TextBoxID.Size = New Size(176, 26)
         TextBoxID.TabIndex = 1
         ' 
         ' Label2
@@ -276,38 +298,43 @@ Partial Class OwnersForm
         Label2.AutoSize = True
         Label2.Font = New Font("Century Gothic", 13F, FontStyle.Bold)
         Label2.ForeColor = Color.Black
-        Label2.Location = New Point(115, 33)
+        Label2.Location = New Point(80, 20)
+        Label2.Margin = New Padding(2, 0, 2, 0)
         Label2.Name = "Label2"
-        Label2.Size = New Size(45, 30)
+        Label2.Size = New Size(33, 22)
         Label2.TabIndex = 0
         Label2.Text = "ID:"
         ' 
         ' Panel2
         ' 
+        Panel2.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
         Panel2.BackColor = Color.White
-        Panel2.Location = New Point(13, 106)
+        Panel2.Location = New Point(9, 64)
+        Panel2.Margin = New Padding(2, 2, 2, 2)
         Panel2.Name = "Panel2"
-        Panel2.Size = New Size(1620, 10)
+        Panel2.Size = New Size(1134, 6)
         Panel2.TabIndex = 2
         ' 
         ' Label1
         ' 
         Label1.AutoSize = True
         Label1.BorderStyle = BorderStyle.FixedSingle
-        Label1.Font = New Font("Gill Sans Ultra Bold", 26F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label1.Font = New Font("Microsoft Sans Serif", 26F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.White
-        Label1.Location = New Point(88, 27)
+        Label1.Location = New Point(62, 16)
+        Label1.Margin = New Padding(2, 0, 2, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(310, 76)
+        Label1.Size = New Size(175, 41)
         Label1.TabIndex = 1
         Label1.Text = "OWNERS"
         ' 
         ' PictureBox1
         ' 
         PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
-        PictureBox1.Location = New Point(13, 27)
+        PictureBox1.Location = New Point(9, 16)
+        PictureBox1.Margin = New Padding(2, 2, 2, 2)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(89, 76)
+        PictureBox1.Size = New Size(62, 46)
         PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox1.TabIndex = 0
         PictureBox1.TabStop = False
@@ -315,25 +342,27 @@ Partial Class OwnersForm
         ' ButtonClose
         ' 
         ButtonClose.BackColor = Color.White
-        ButtonClose.Font = New Font("Castellar", 10F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        ButtonClose.Location = New Point(1900, 20)
+        ButtonClose.Font = New Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        ButtonClose.Location = New Point(1330, 12)
+        ButtonClose.Margin = New Padding(2, 2, 2, 2)
         ButtonClose.Name = "ButtonClose"
-        ButtonClose.Size = New Size(54, 44)
+        ButtonClose.Size = New Size(38, 26)
         ButtonClose.TabIndex = 5
         ButtonClose.Text = "X"
         ButtonClose.UseVisualStyleBackColor = False
         ' 
         ' OwnersForm
         ' 
-        AutoScaleDimensions = New SizeF(10F, 25F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(42), CByte(72), CByte(78))
-        ClientSize = New Size(1367, 1086)
+        ClientSize = New Size(957, 652)
         Controls.Add(Panel1)
         Controls.Add(ButtonClose)
         FormBorderStyle = FormBorderStyle.None
+        Margin = New Padding(2, 2, 2, 2)
         Name = "OwnersForm"
-        Padding = New Padding(900, 900, 900, 0)
+        Padding = New Padding(630, 540, 630, 0)
         RightToLeft = RightToLeft.No
         StartPosition = FormStartPosition.WindowsDefaultBounds
         Text = "OwnersForm"

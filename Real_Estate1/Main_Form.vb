@@ -1,4 +1,6 @@
-﻿Public Class Main_Form
+﻿Imports Microsoft.Azure.Amqp.Framing
+
+Public Class Main_Form
 
     Dim ownersf As New OwnersForm()
     Dim propertyF As New PropertyForm()
@@ -6,63 +8,48 @@
     Dim clientsF As New ClientsForm()
     Dim propImagesF As New PropertyImages_Form()
     Dim salesF As New Sales_Form()
+    Public PropertiesListF As New PropertiesList_Form()
+    Public mapF
 
-    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel_Menu.Paint
+    Public Sub ShowForm(formToShow As Form)
+        ownersf.Hide()
+        propertyF.Hide()
+        property_type.Hide()
+        propImagesF.Hide()
+        salesF.Hide()
+        clientsF.Hide()
+        PropertiesListF.Hide()
+
+        Try
+            mapF.Hide()
+        Catch ex As Exception
+            Return
+        Finally
+            formToShow.TopLevel = False
+            Me.SplitContainer1.Panel2.Controls.Add(formToShow)
+            formToShow.Anchor = AnchorStyles.Left & AnchorStyles.Right & AnchorStyles.Bottom & AnchorStyles.Top
+            formToShow.Dock = DockStyle.Fill
+
+            formToShow.Show()
+        End Try
+
 
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        ownersf.Hide()
-        propertyF.Hide()
-        property_type.Hide()
-        propImagesF.Hide()
-        salesF.Hide()
-        clientsF.Hide()
-
-        clientsF.Show()
+        ShowForm(clientsF)
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-        ownersf.Hide()
-        propertyF.Hide()
-        property_type.Hide()
-        propImagesF.Hide()
-        salesF.Hide()
-        clientsF.Hide()
-
-        property_type.Show()
+        ShowForm(property_type)
     End Sub
-
-
 
     Private Sub Main_Form_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        'Center the panel in the form
         Panel_Menu.Location = New Point(ClientSize.Width / 3 - ClientSize.Width / 4)
-
-        'Make the panel right/left full height
-        PanelLeft.Size = New Size(PanelLeft.Width, ClientSize.Height)
-        PanelRight.Size = New Size(PanelRight.Width, ClientSize.Height)
-        PanelRight.Location = New Point(ClientSize.Width - 5, 0)
-
-        'Button close (upper right)
-        'ButtonClose.Location = New Point(ClientSize.Width - (PanelRight.Width + ButtonClose.Width + 10), 10)
-
     End Sub
-
-    Private Sub Panel_1_Paint(sender As Object, e As PaintEventArgs)
-
-    End Sub
-
 
     Private Sub Button_Owner_Click(sender As Object, e As EventArgs) Handles Button_Owner.Click
-        ownersf.Hide
-        propertyF.Hide
-        property_type.Hide
-        propImagesF.Hide
-        salesF.Hide
-        clientsF.Hide
-
-        ownersf.Show
+        ShowForm(ownersf)
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs)
@@ -70,40 +57,15 @@
     End Sub
 
     Public Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        ownersf.Hide()
-        propertyF.Hide()
-        property_type.Hide()
-        propImagesF.Hide()
-        salesF.Hide()
-        clientsF.Hide()
-
-        propertyF.Show()
+        ShowForm(propertyF)
     End Sub
 
     Private Sub ButtonIMAGES_Click(sender As Object, e As EventArgs) Handles ButtonIMAGES.Click
-        ownersf.Hide()
-        propertyF.Hide()
-        property_type.Hide()
-        propImagesF.Hide()
-        salesF.Hide()
-        clientsF.Hide()
-
-        propImagesF.Show()
+        ShowForm(propImagesF)
     End Sub
 
     Private Sub SALES_Click(sender As Object, e As EventArgs) Handles SALES.Click
-        ownersf.Hide()
-        propertyF.Hide()
-        property_type.Hide()
-        propImagesF.Hide()
-        salesF.Hide()
-        clientsF.Hide()
-
-        salesF.Show()
-    End Sub
-
-    Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Panel2.Paint
-
+        ShowForm(salesF)
     End Sub
 
     Private Sub btnLogout_Click(sender As Object, e As EventArgs)
@@ -129,8 +91,6 @@
         ' Optionally close the current form
         Close()
     End Sub
-
-
 
 End Class
 

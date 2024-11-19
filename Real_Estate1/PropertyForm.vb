@@ -1,10 +1,12 @@
 ﻿Imports System.Security.AccessControl
+Imports System.Security.Policy
 
 Public Class PropertyForm
     Dim theType As New The_Type
     Dim theProperty As New The_Property
+
     Private Sub Button1_Click(sender As Object, e As EventArgs)
-        Close
+        Close()
     End Sub
 
 
@@ -173,10 +175,11 @@ Public Class PropertyForm
     End Sub
 
     Private Sub Button_ShowAllProperty_Click(sender As Object, e As EventArgs) Handles Button_ShowAllProperty.Click
-        'button to show all property
-        Dim propsListF As New PropertiesList_Form()
-        propsListF.Show()
 
+        'Dim propsListF As New PropertiesList_Form()
+        'Dim PropertiesListF As New PropertiesList_Form()
+        'propsListF.Show()
+        Main_Form.ShowForm(Main_Form.PropertiesListF)
     End Sub
 
     Private Sub Button_ShowPropertyImage_Click(sender As Object, e As EventArgs) Handles Button_ShowPropertyImage.Click
@@ -232,12 +235,6 @@ Public Class PropertyForm
                 CheckBoxBACKYARD.Checked = table.Rows(0)("pool")
 
 
-
-
-
-
-
-
             Else
 
                 MessageBox.Show("Property does not exist, use another ID", "No Property", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
@@ -246,12 +243,22 @@ Public Class PropertyForm
 
         Catch ex As Exception
             MessageBox.Show(ex.Message)
-
-
         End Try
     End Sub
 
     Private Sub ComboBoxTYPE_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBoxTYPE.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub ViewMap_Click(sender As Object, e As EventArgs) Handles ViewMap.Click
+        Dim address As String = TextBoxADDRESS.Text
+        If (address IsNot "") Then
+            Main_Form.mapF = New Maps_Form(address)
+            Main_Form.ShowForm(Main_Form.mapF)
+
+        Else
+            MessageBox.Show("Address must not be empty", "Empty Address", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
+        End If
 
     End Sub
 End Class

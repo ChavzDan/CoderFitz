@@ -45,9 +45,10 @@ Partial Class Login_Form
         ' PictureBox1
         ' 
         PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
-        PictureBox1.Location = New Point(190, 12)
+        PictureBox1.Location = New Point(133, 7)
+        PictureBox1.Margin = New Padding(2, 2, 2, 2)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(147, 175)
+        PictureBox1.Size = New Size(103, 105)
         PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox1.TabIndex = 0
         PictureBox1.TabStop = False
@@ -55,11 +56,12 @@ Partial Class Login_Form
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Font = New Font("Colonna MT", 20F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label1.Font = New Font("Microsoft Sans Serif", 20F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.White
-        Label1.Location = New Point(197, 168)
+        Label1.Location = New Point(138, 101)
+        Label1.Margin = New Padding(2, 0, 2, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(135, 43)
+        Label1.Size = New Size(96, 31)
         Label1.TabIndex = 1
         Label1.Text = "ADAM"
         ' 
@@ -68,26 +70,29 @@ Partial Class Login_Form
         PanelUsername.BackColor = Color.White
         PanelUsername.Controls.Add(textUsername)
         PanelUsername.Controls.Add(PictureBox2)
-        PanelUsername.Location = New Point(114, 253)
+        PanelUsername.Location = New Point(80, 152)
+        PanelUsername.Margin = New Padding(2, 2, 2, 2)
         PanelUsername.Name = "PanelUsername"
-        PanelUsername.Size = New Size(323, 67)
+        PanelUsername.Size = New Size(226, 40)
         PanelUsername.TabIndex = 2
         ' 
         ' textUsername
         ' 
         textUsername.BorderStyle = BorderStyle.None
         textUsername.ForeColor = Color.Black
-        textUsername.Location = New Point(73, 24)
+        textUsername.Location = New Point(51, 14)
+        textUsername.Margin = New Padding(2, 2, 2, 2)
         textUsername.Name = "textUsername"
-        textUsername.Size = New Size(233, 24)
+        textUsername.Size = New Size(163, 16)
         textUsername.TabIndex = 1
         ' 
         ' PictureBox2
         ' 
         PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), Image)
-        PictureBox2.Location = New Point(8, 5)
+        PictureBox2.Location = New Point(6, 3)
+        PictureBox2.Margin = New Padding(2, 2, 2, 2)
         PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(57, 56)
+        PictureBox2.Size = New Size(40, 34)
         PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox2.TabIndex = 0
         PictureBox2.TabStop = False
@@ -97,27 +102,30 @@ Partial Class Login_Form
         PanelPassword.BackColor = Color.White
         PanelPassword.Controls.Add(textPassword)
         PanelPassword.Controls.Add(PictureBox4)
-        PanelPassword.Location = New Point(114, 351)
+        PanelPassword.Location = New Point(80, 211)
+        PanelPassword.Margin = New Padding(2, 2, 2, 2)
         PanelPassword.Name = "PanelPassword"
-        PanelPassword.Size = New Size(323, 69)
+        PanelPassword.Size = New Size(226, 41)
         PanelPassword.TabIndex = 4
         ' 
         ' textPassword
         ' 
         textPassword.BorderStyle = BorderStyle.None
         textPassword.ForeColor = Color.Black
-        textPassword.Location = New Point(76, 22)
+        textPassword.Location = New Point(53, 13)
+        textPassword.Margin = New Padding(2, 2, 2, 2)
         textPassword.Name = "textPassword"
-        textPassword.Size = New Size(229, 24)
+        textPassword.Size = New Size(160, 16)
         textPassword.TabIndex = 1
         textPassword.UseSystemPasswordChar = True
         ' 
         ' PictureBox4
         ' 
         PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), Image)
-        PictureBox4.Location = New Point(7, 6)
+        PictureBox4.Location = New Point(5, 4)
+        PictureBox4.Margin = New Padding(2, 2, 2, 2)
         PictureBox4.Name = "PictureBox4"
-        PictureBox4.Size = New Size(60, 58)
+        PictureBox4.Size = New Size(42, 35)
         PictureBox4.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox4.TabIndex = 0
         PictureBox4.TabStop = False
@@ -127,9 +135,10 @@ Partial Class Login_Form
         btnLOGIN.BackColor = Color.FromArgb(CByte(55), CByte(115), CByte(117))
         btnLOGIN.Font = New Font("Century Gothic", 13F, FontStyle.Bold)
         btnLOGIN.ForeColor = Color.White
-        btnLOGIN.Location = New Point(114, 483)
+        btnLOGIN.Location = New Point(80, 290)
+        btnLOGIN.Margin = New Padding(2, 2, 2, 2)
         btnLOGIN.Name = "btnLOGIN"
-        btnLOGIN.Size = New Size(323, 66)
+        btnLOGIN.Size = New Size(226, 40)
         btnLOGIN.TabIndex = 5
         btnLOGIN.Text = "Login"
         btnLOGIN.UseVisualStyleBackColor = False
@@ -138,9 +147,10 @@ Partial Class Login_Form
         ' 
         btnCANCEL.BackColor = Color.FromArgb(CByte(168), CByte(216), CByte(205))
         btnCANCEL.Font = New Font("Century Gothic", 13F, FontStyle.Bold)
-        btnCANCEL.Location = New Point(114, 568)
+        btnCANCEL.Location = New Point(80, 341)
+        btnCANCEL.Margin = New Padding(2, 2, 2, 2)
         btnCANCEL.Name = "btnCANCEL"
-        btnCANCEL.Size = New Size(323, 68)
+        btnCANCEL.Size = New Size(226, 41)
         btnCANCEL.TabIndex = 6
         btnCANCEL.Text = "Cancel"
         btnCANCEL.UseVisualStyleBackColor = False
@@ -150,9 +160,10 @@ Partial Class Login_Form
         LabelError.AutoSize = True
         LabelError.Font = New Font("Segoe UI", 8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         LabelError.ForeColor = Color.Red
-        LabelError.Location = New Point(187, 436)
+        LabelError.Location = New Point(131, 262)
+        LabelError.Margin = New Padding(2, 0, 2, 0)
         LabelError.Name = "LabelError"
-        LabelError.Size = New Size(145, 21)
+        LabelError.Size = New Size(105, 13)
         LabelError.TabIndex = 7
         LabelError.Text = "Error message here"
         LabelError.Visible = False
@@ -160,17 +171,18 @@ Partial Class Login_Form
         ' Panel2
         ' 
         Panel2.BackColor = Color.White
-        Panel2.Location = New Point(71, 214)
+        Panel2.Location = New Point(45, 136)
+        Panel2.Margin = New Padding(2, 2, 2, 2)
         Panel2.Name = "Panel2"
-        Panel2.Size = New Size(397, 10)
+        Panel2.Size = New Size(297, 6)
         Panel2.TabIndex = 8
         ' 
         ' Login_Form
         ' 
-        AutoScaleDimensions = New SizeF(10F, 25F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(42), CByte(72), CByte(78))
-        ClientSize = New Size(530, 712)
+        ClientSize = New Size(371, 427)
         Controls.Add(Panel2)
         Controls.Add(LabelError)
         Controls.Add(btnCANCEL)
@@ -180,6 +192,7 @@ Partial Class Login_Form
         Controls.Add(Label1)
         Controls.Add(PictureBox1)
         FormBorderStyle = FormBorderStyle.FixedSingle
+        Margin = New Padding(2, 2, 2, 2)
         MaximizeBox = False
         Name = "Login_Form"
         StartPosition = FormStartPosition.CenterScreen
