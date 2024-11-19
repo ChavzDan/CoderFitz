@@ -7,6 +7,8 @@
     End Sub
 
     Private Sub LoadClientsData()
+        Me.Location = New Point((Screen.PrimaryScreen.WorkingArea.Width - Me.Width) / 1.5, (Screen.PrimaryScreen.WorkingArea.Height - Me.Height) / 2)
+
         Try
             Dim selectClientsQuery As String = "SELECT * FROM " & tableName
             DataGridViewCLIENTS.DataSource = func.getData(selectClientsQuery)
@@ -114,7 +116,11 @@
         End If
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs)
         Close()
+    End Sub
+
+    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
+
     End Sub
 End Class

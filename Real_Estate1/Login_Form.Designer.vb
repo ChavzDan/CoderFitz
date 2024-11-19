@@ -34,6 +34,7 @@ Partial Class Login_Form
         btnLOGIN = New Button()
         btnCANCEL = New Button()
         LabelError = New Label()
+        Panel2 = New Panel()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         PanelUsername.SuspendLayout()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
@@ -44,7 +45,7 @@ Partial Class Login_Form
         ' PictureBox1
         ' 
         PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
-        PictureBox1.Location = New Point(159, 12)
+        PictureBox1.Location = New Point(190, 12)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(147, 175)
         PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
@@ -54,11 +55,11 @@ Partial Class Login_Form
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Font = New Font("Segoe UI", 14.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label1.ForeColor = Color.DarkCyan
-        Label1.Location = New Point(183, 179)
+        Label1.Font = New Font("Colonna MT", 20F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label1.ForeColor = Color.White
+        Label1.Location = New Point(197, 168)
         Label1.Name = "Label1"
-        Label1.Size = New Size(105, 38)
+        Label1.Size = New Size(135, 43)
         Label1.TabIndex = 1
         Label1.Text = "ADAM"
         ' 
@@ -67,7 +68,7 @@ Partial Class Login_Form
         PanelUsername.BackColor = Color.White
         PanelUsername.Controls.Add(textUsername)
         PanelUsername.Controls.Add(PictureBox2)
-        PanelUsername.Location = New Point(83, 253)
+        PanelUsername.Location = New Point(114, 253)
         PanelUsername.Name = "PanelUsername"
         PanelUsername.Size = New Size(323, 67)
         PanelUsername.TabIndex = 2
@@ -96,7 +97,7 @@ Partial Class Login_Form
         PanelPassword.BackColor = Color.White
         PanelPassword.Controls.Add(textPassword)
         PanelPassword.Controls.Add(PictureBox4)
-        PanelPassword.Location = New Point(83, 338)
+        PanelPassword.Location = New Point(114, 351)
         PanelPassword.Name = "PanelPassword"
         PanelPassword.Size = New Size(323, 69)
         PanelPassword.TabIndex = 4
@@ -105,7 +106,7 @@ Partial Class Login_Form
         ' 
         textPassword.BorderStyle = BorderStyle.None
         textPassword.ForeColor = Color.Black
-        textPassword.Location = New Point(77, 24)
+        textPassword.Location = New Point(76, 22)
         textPassword.Name = "textPassword"
         textPassword.Size = New Size(229, 24)
         textPassword.TabIndex = 1
@@ -123,44 +124,54 @@ Partial Class Login_Form
         ' 
         ' btnLOGIN
         ' 
-        btnLOGIN.BackColor = Color.DeepSkyBlue
-        btnLOGIN.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        btnLOGIN.BackColor = Color.FromArgb(CByte(55), CByte(115), CByte(117))
+        btnLOGIN.Font = New Font("Century Gothic", 13F, FontStyle.Bold)
         btnLOGIN.ForeColor = Color.White
-        btnLOGIN.Location = New Point(83, 459)
+        btnLOGIN.Location = New Point(114, 483)
         btnLOGIN.Name = "btnLOGIN"
-        btnLOGIN.Size = New Size(323, 54)
+        btnLOGIN.Size = New Size(323, 66)
         btnLOGIN.TabIndex = 5
         btnLOGIN.Text = "Login"
         btnLOGIN.UseVisualStyleBackColor = False
         ' 
         ' btnCANCEL
         ' 
-        btnCANCEL.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        btnCANCEL.Location = New Point(83, 528)
+        btnCANCEL.BackColor = Color.FromArgb(CByte(168), CByte(216), CByte(205))
+        btnCANCEL.Font = New Font("Century Gothic", 13F, FontStyle.Bold)
+        btnCANCEL.Location = New Point(114, 568)
         btnCANCEL.Name = "btnCANCEL"
-        btnCANCEL.Size = New Size(323, 56)
+        btnCANCEL.Size = New Size(323, 68)
         btnCANCEL.TabIndex = 6
         btnCANCEL.Text = "Cancel"
-        btnCANCEL.UseVisualStyleBackColor = True
+        btnCANCEL.UseVisualStyleBackColor = False
         ' 
         ' LabelError
         ' 
         LabelError.AutoSize = True
         LabelError.Font = New Font("Segoe UI", 8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         LabelError.ForeColor = Color.Red
-        LabelError.Location = New Point(146, 426)
+        LabelError.Location = New Point(187, 436)
         LabelError.Name = "LabelError"
         LabelError.Size = New Size(145, 21)
         LabelError.TabIndex = 7
         LabelError.Text = "Error message here"
         LabelError.Visible = False
         ' 
+        ' Panel2
+        ' 
+        Panel2.BackColor = Color.White
+        Panel2.Location = New Point(71, 214)
+        Panel2.Name = "Panel2"
+        Panel2.Size = New Size(397, 10)
+        Panel2.TabIndex = 8
+        ' 
         ' Login_Form
         ' 
         AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
-        BackColor = Color.PaleTurquoise
-        ClientSize = New Size(488, 682)
+        BackColor = Color.FromArgb(CByte(42), CByte(72), CByte(78))
+        ClientSize = New Size(530, 712)
+        Controls.Add(Panel2)
         Controls.Add(LabelError)
         Controls.Add(btnCANCEL)
         Controls.Add(btnLOGIN)
@@ -195,4 +206,5 @@ Partial Class Login_Form
     Friend WithEvents btnLOGIN As Button
     Friend WithEvents btnCANCEL As Button
     Friend WithEvents LabelError As Label
+    Friend WithEvents Panel2 As Panel
 End Class

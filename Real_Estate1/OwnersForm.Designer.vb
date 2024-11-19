@@ -24,7 +24,6 @@ Partial Class OwnersForm
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(OwnersForm))
         Panel1 = New Panel()
-        Button1 = New Button()
         Panel3 = New Panel()
         ButtonSHOW_OWNER_PROPERTIES = New Button()
         ButtonCLEAR_FIELDS = New Button()
@@ -56,31 +55,20 @@ Partial Class OwnersForm
         ' 
         ' Panel1
         ' 
-        Panel1.BackColor = Color.PaleTurquoise
-        Panel1.Controls.Add(Button1)
+        Panel1.BackColor = Color.FromArgb(CByte(42), CByte(72), CByte(78))
         Panel1.Controls.Add(Panel3)
         Panel1.Controls.Add(Panel2)
         Panel1.Controls.Add(Label1)
         Panel1.Controls.Add(PictureBox1)
-        Panel1.Location = New Point(38, 20)
+        Panel1.Font = New Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Panel1.Location = New Point(26, -9)
         Panel1.Name = "Panel1"
-        Panel1.Size = New Size(1240, 1003)
+        Panel1.Size = New Size(1331, 825)
         Panel1.TabIndex = 0
-        ' 
-        ' Button1
-        ' 
-        Button1.BackColor = Color.White
-        Button1.Font = New Font("Castellar", 10F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Button1.Location = New Point(1183, 0)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(54, 44)
-        Button1.TabIndex = 5
-        Button1.Text = "X"
-        Button1.UseVisualStyleBackColor = False
         ' 
         ' Panel3
         ' 
-        Panel3.BackColor = Color.LemonChiffon
+        Panel3.BackColor = Color.FromArgb(CByte(168), CByte(216), CByte(205))
         Panel3.Controls.Add(ButtonSHOW_OWNER_PROPERTIES)
         Panel3.Controls.Add(ButtonCLEAR_FIELDS)
         Panel3.Controls.Add(ButtonREMOVE)
@@ -101,64 +89,69 @@ Partial Class OwnersForm
         Panel3.Controls.Add(Label2)
         Panel3.Location = New Point(3, 132)
         Panel3.Name = "Panel3"
-        Panel3.Size = New Size(1245, 577)
+        Panel3.Size = New Size(1318, 691)
         Panel3.TabIndex = 3
         ' 
         ' ButtonSHOW_OWNER_PROPERTIES
         ' 
-        ButtonSHOW_OWNER_PROPERTIES.BackColor = Color.Orange
-        ButtonSHOW_OWNER_PROPERTIES.ForeColor = Color.Black
-        ButtonSHOW_OWNER_PROPERTIES.Location = New Point(530, 422)
+        ButtonSHOW_OWNER_PROPERTIES.BackColor = Color.FromArgb(CByte(55), CByte(115), CByte(117))
+        ButtonSHOW_OWNER_PROPERTIES.Font = New Font("Century Gothic", 12F, FontStyle.Bold)
+        ButtonSHOW_OWNER_PROPERTIES.ForeColor = Color.White
+        ButtonSHOW_OWNER_PROPERTIES.Location = New Point(561, 498)
         ButtonSHOW_OWNER_PROPERTIES.Name = "ButtonSHOW_OWNER_PROPERTIES"
-        ButtonSHOW_OWNER_PROPERTIES.Size = New Size(653, 50)
+        ButtonSHOW_OWNER_PROPERTIES.Size = New Size(653, 71)
         ButtonSHOW_OWNER_PROPERTIES.TabIndex = 17
         ButtonSHOW_OWNER_PROPERTIES.Text = "View Owner Properties"
         ButtonSHOW_OWNER_PROPERTIES.UseVisualStyleBackColor = False
         ' 
         ' ButtonCLEAR_FIELDS
         ' 
-        ButtonCLEAR_FIELDS.BackColor = Color.Gold
+        ButtonCLEAR_FIELDS.BackColor = Color.FromArgb(CByte(55), CByte(115), CByte(117))
         ButtonCLEAR_FIELDS.Cursor = Cursors.Hand
-        ButtonCLEAR_FIELDS.ForeColor = Color.Black
-        ButtonCLEAR_FIELDS.Location = New Point(21, 496)
+        ButtonCLEAR_FIELDS.Font = New Font("Century Gothic", 11F, FontStyle.Bold)
+        ButtonCLEAR_FIELDS.ForeColor = Color.White
+        ButtonCLEAR_FIELDS.Location = New Point(28, 601)
         ButtonCLEAR_FIELDS.Name = "ButtonCLEAR_FIELDS"
-        ButtonCLEAR_FIELDS.Size = New Size(438, 50)
+        ButtonCLEAR_FIELDS.Size = New Size(438, 62)
         ButtonCLEAR_FIELDS.TabIndex = 16
         ButtonCLEAR_FIELDS.Text = "Clear Fields"
         ButtonCLEAR_FIELDS.UseVisualStyleBackColor = False
         ' 
         ' ButtonREMOVE
         ' 
-        ButtonREMOVE.BackColor = Color.Red
+        ButtonREMOVE.BackColor = Color.DarkRed
         ButtonREMOVE.Cursor = Cursors.Hand
+        ButtonREMOVE.Font = New Font("Century Gothic", 11F, FontStyle.Bold)
         ButtonREMOVE.ForeColor = Color.White
-        ButtonREMOVE.Location = New Point(308, 440)
+        ButtonREMOVE.Location = New Point(315, 524)
         ButtonREMOVE.Name = "ButtonREMOVE"
-        ButtonREMOVE.Size = New Size(151, 50)
+        ButtonREMOVE.Size = New Size(151, 71)
         ButtonREMOVE.TabIndex = 15
-        ButtonREMOVE.Text = "REMOVE"
+        ButtonREMOVE.Text = "DELETE"
         ButtonREMOVE.UseVisualStyleBackColor = False
         ' 
         ' ButtonEDIT
         ' 
-        ButtonEDIT.BackColor = Color.DeepSkyBlue
+        ButtonEDIT.BackColor = Color.FromArgb(CByte(55), CByte(115), CByte(117))
         ButtonEDIT.Cursor = Cursors.Hand
+        ButtonEDIT.Font = New Font("Century Gothic", 11F, FontStyle.Bold)
         ButtonEDIT.ForeColor = Color.White
-        ButtonEDIT.Location = New Point(163, 440)
+        ButtonEDIT.Location = New Point(170, 524)
         ButtonEDIT.Name = "ButtonEDIT"
-        ButtonEDIT.Size = New Size(142, 50)
+        ButtonEDIT.Size = New Size(142, 71)
         ButtonEDIT.TabIndex = 14
         ButtonEDIT.Text = "EDIT"
         ButtonEDIT.UseVisualStyleBackColor = False
         ' 
         ' ButtonADD
         ' 
-        ButtonADD.BackColor = Color.YellowGreen
+        ButtonADD.BackColor = Color.FromArgb(CByte(55), CByte(115), CByte(117))
         ButtonADD.Cursor = Cursors.Hand
+        ButtonADD.Font = New Font("Century Gothic", 11F, FontStyle.Bold)
         ButtonADD.ForeColor = Color.White
-        ButtonADD.Location = New Point(21, 440)
+        ButtonADD.Location = New Point(28, 524)
         ButtonADD.Name = "ButtonADD"
-        ButtonADD.Size = New Size(136, 50)
+        ButtonADD.Size = New Size(136, 71)
         ButtonADD.TabIndex = 13
         ButtonADD.Text = "ADD"
         ButtonADD.UseVisualStyleBackColor = False
@@ -167,108 +160,125 @@ Partial Class OwnersForm
         ' 
         DataGridViewOWNERS.AllowUserToAddRows = False
         DataGridViewOWNERS.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells
-        DataGridViewOWNERS.BackgroundColor = Color.MistyRose
+        DataGridViewOWNERS.BackgroundColor = Color.WhiteSmoke
         DataGridViewOWNERS.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridViewOWNERS.Location = New Point(473, 23)
+        DataGridViewOWNERS.Location = New Point(465, 23)
         DataGridViewOWNERS.Name = "DataGridViewOWNERS"
         DataGridViewOWNERS.RowHeadersWidth = 62
-        DataGridViewOWNERS.Size = New Size(750, 393)
+        DataGridViewOWNERS.Size = New Size(850, 469)
         DataGridViewOWNERS.TabIndex = 12
         ' 
         ' TextBoxADDRESS
         ' 
-        TextBoxADDRESS.Location = New Point(179, 289)
+        TextBoxADDRESS.Location = New Point(179, 366)
         TextBoxADDRESS.Multiline = True
         TextBoxADDRESS.Name = "TextBoxADDRESS"
-        TextBoxADDRESS.Size = New Size(249, 127)
+        TextBoxADDRESS.Size = New Size(249, 126)
         TextBoxADDRESS.TabIndex = 11
         ' 
         ' Label7
         ' 
         Label7.AutoSize = True
-        Label7.Location = New Point(65, 292)
+        Label7.Font = New Font("Century Gothic", 13F, FontStyle.Bold)
+        Label7.ForeColor = Color.Black
+        Label7.Location = New Point(52, 365)
         Label7.Name = "Label7"
-        Label7.Size = New Size(81, 25)
+        Label7.Size = New Size(120, 30)
         Label7.TabIndex = 10
         Label7.Text = "Address:"
         ' 
         ' TextBoxMAIL
         ' 
-        TextBoxMAIL.Location = New Point(179, 237)
+        TextBoxMAIL.Location = New Point(179, 295)
+        TextBoxMAIL.Multiline = True
         TextBoxMAIL.Name = "TextBoxMAIL"
-        TextBoxMAIL.Size = New Size(249, 31)
+        TextBoxMAIL.Size = New Size(249, 56)
         TextBoxMAIL.TabIndex = 9
         ' 
         ' Label6
         ' 
         Label6.AutoSize = True
-        Label6.Location = New Point(65, 240)
+        Label6.Font = New Font("Century Gothic", 13F, FontStyle.Bold)
+        Label6.ForeColor = Color.Black
+        Label6.Location = New Point(73, 308)
         Label6.Name = "Label6"
-        Label6.Size = New Size(58, 25)
+        Label6.Size = New Size(87, 30)
         Label6.TabIndex = 8
         Label6.Text = "Email:"
         ' 
         ' TextBoxPHONE
         ' 
-        TextBoxPHONE.Location = New Point(179, 185)
+        TextBoxPHONE.Location = New Point(179, 222)
+        TextBoxPHONE.Multiline = True
         TextBoxPHONE.Name = "TextBoxPHONE"
-        TextBoxPHONE.Size = New Size(249, 31)
+        TextBoxPHONE.Size = New Size(249, 55)
         TextBoxPHONE.TabIndex = 7
         ' 
         ' Label5
         ' 
         Label5.AutoSize = True
-        Label5.Location = New Point(65, 188)
+        Label5.Font = New Font("Century Gothic", 13F, FontStyle.Bold)
+        Label5.ForeColor = Color.Black
+        Label5.Location = New Point(68, 238)
         Label5.Name = "Label5"
-        Label5.Size = New Size(66, 25)
+        Label5.Size = New Size(101, 30)
         Label5.TabIndex = 6
         Label5.Text = "Phone:"
         ' 
         ' TextBoxlNAME
         ' 
-        TextBoxlNAME.Location = New Point(179, 129)
+        TextBoxlNAME.Location = New Point(179, 147)
+        TextBoxlNAME.Multiline = True
         TextBoxlNAME.Name = "TextBoxlNAME"
-        TextBoxlNAME.Size = New Size(249, 31)
+        TextBoxlNAME.Size = New Size(249, 56)
         TextBoxlNAME.TabIndex = 5
         ' 
         ' Label4
         ' 
         Label4.AutoSize = True
-        Label4.Location = New Point(65, 132)
+        Label4.Font = New Font("Century Gothic", 13F, FontStyle.Bold)
+        Label4.ForeColor = Color.Black
+        Label4.Location = New Point(20, 164)
         Label4.Name = "Label4"
-        Label4.Size = New Size(99, 25)
+        Label4.Size = New Size(151, 30)
         Label4.TabIndex = 4
         Label4.Text = "Last Name:"
         ' 
         ' TextBoxfNAME
         ' 
         TextBoxfNAME.Location = New Point(179, 78)
+        TextBoxfNAME.Multiline = True
         TextBoxfNAME.Name = "TextBoxfNAME"
-        TextBoxfNAME.Size = New Size(249, 31)
+        TextBoxfNAME.Size = New Size(249, 54)
         TextBoxfNAME.TabIndex = 3
         ' 
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Location = New Point(65, 81)
+        Label3.Font = New Font("Century Gothic", 13F, FontStyle.Bold)
+        Label3.ForeColor = Color.Black
+        Label3.Location = New Point(20, 91)
         Label3.Name = "Label3"
-        Label3.Size = New Size(101, 25)
+        Label3.Size = New Size(149, 30)
         Label3.TabIndex = 2
         Label3.Text = "First Name:"
         ' 
         ' TextBoxID
         ' 
-        TextBoxID.Location = New Point(105, 23)
+        TextBoxID.Location = New Point(179, 23)
+        TextBoxID.Multiline = True
         TextBoxID.Name = "TextBoxID"
-        TextBoxID.Size = New Size(249, 31)
+        TextBoxID.Size = New Size(249, 40)
         TextBoxID.TabIndex = 1
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Location = New Point(65, 26)
+        Label2.Font = New Font("Century Gothic", 13F, FontStyle.Bold)
+        Label2.ForeColor = Color.Black
+        Label2.Location = New Point(115, 33)
         Label2.Name = "Label2"
-        Label2.Size = New Size(34, 25)
+        Label2.Size = New Size(45, 30)
         Label2.TabIndex = 0
         Label2.Text = "ID:"
         ' 
@@ -317,13 +327,15 @@ Partial Class OwnersForm
         ' 
         AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
-        BackColor = Color.PaleTurquoise
-        ClientSize = New Size(1290, 1035)
+        BackColor = Color.FromArgb(CByte(42), CByte(72), CByte(78))
+        ClientSize = New Size(1367, 1086)
         Controls.Add(Panel1)
         Controls.Add(ButtonClose)
         FormBorderStyle = FormBorderStyle.None
         Name = "OwnersForm"
-        StartPosition = FormStartPosition.CenterScreen
+        Padding = New Padding(900, 900, 900, 0)
+        RightToLeft = RightToLeft.No
+        StartPosition = FormStartPosition.WindowsDefaultBounds
         Text = "OwnersForm"
         Panel1.ResumeLayout(False)
         Panel1.PerformLayout()
@@ -339,7 +351,6 @@ Partial Class OwnersForm
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Panel2 As Panel
     Friend WithEvents ButtonClose As Button
-    Friend WithEvents Button1 As Button
     Friend WithEvents Panel3 As Panel
     Friend WithEvents TextBoxfNAME As TextBox
     Friend WithEvents Label3 As Label

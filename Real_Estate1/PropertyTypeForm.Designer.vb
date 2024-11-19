@@ -39,7 +39,6 @@ Partial Class PropertyTypeForm
         Panel2 = New Panel()
         Label1 = New Label()
         PictureBox1 = New PictureBox()
-        Button1 = New Button()
         Panel1.SuspendLayout()
         Panel3.SuspendLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
@@ -47,19 +46,19 @@ Partial Class PropertyTypeForm
         ' 
         ' Panel1
         ' 
-        Panel1.BackColor = Color.PaleTurquoise
+        Panel1.BackColor = Color.FromArgb(CByte(42), CByte(72), CByte(78))
         Panel1.Controls.Add(Panel3)
         Panel1.Controls.Add(Panel2)
         Panel1.Controls.Add(Label1)
         Panel1.Controls.Add(PictureBox1)
-        Panel1.Location = New Point(50, 29)
+        Panel1.Location = New Point(12, -8)
         Panel1.Name = "Panel1"
-        Panel1.Size = New Size(1186, 1021)
+        Panel1.Size = New Size(1360, 1052)
         Panel1.TabIndex = 1
         ' 
         ' Panel3
         ' 
-        Panel3.BackColor = Color.LemonChiffon
+        Panel3.BackColor = Color.FromArgb(CByte(168), CByte(216), CByte(205))
         Panel3.Controls.Add(ListBoxTypes)
         Panel3.Controls.Add(ButtonCLEARFIELDS)
         Panel3.Controls.Add(ButtonREMOVE)
@@ -73,65 +72,70 @@ Partial Class PropertyTypeForm
         Panel3.Controls.Add(Label2)
         Panel3.Location = New Point(12, 134)
         Panel3.Name = "Panel3"
-        Panel3.Size = New Size(1169, 577)
+        Panel3.Size = New Size(1329, 711)
         Panel3.TabIndex = 3
         ' 
         ' ListBoxTypes
         ' 
+        ListBoxTypes.Font = New Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         ListBoxTypes.FormattingEnabled = True
-        ListBoxTypes.ItemHeight = 25
+        ListBoxTypes.ItemHeight = 21
         ListBoxTypes.Location = New Point(672, 41)
         ListBoxTypes.Name = "ListBoxTypes"
-        ListBoxTypes.Size = New Size(438, 479)
+        ListBoxTypes.Size = New Size(627, 613)
         ListBoxTypes.TabIndex = 17
         ' 
         ' ButtonCLEARFIELDS
         ' 
-        ButtonCLEARFIELDS.BackColor = Color.Gold
-        ButtonCLEARFIELDS.ForeColor = Color.Black
-        ButtonCLEARFIELDS.Location = New Point(63, 435)
+        ButtonCLEARFIELDS.BackColor = Color.FromArgb(CByte(55), CByte(115), CByte(117))
+        ButtonCLEARFIELDS.Font = New Font("Century Gothic", 11F, FontStyle.Bold)
+        ButtonCLEARFIELDS.ForeColor = Color.White
+        ButtonCLEARFIELDS.Location = New Point(76, 599)
         ButtonCLEARFIELDS.Name = "ButtonCLEARFIELDS"
-        ButtonCLEARFIELDS.Size = New Size(527, 63)
+        ButtonCLEARFIELDS.Size = New Size(527, 79)
         ButtonCLEARFIELDS.TabIndex = 16
         ButtonCLEARFIELDS.Text = "Clear Fields"
         ButtonCLEARFIELDS.UseVisualStyleBackColor = False
         ' 
         ' ButtonREMOVE
         ' 
-        ButtonREMOVE.BackColor = Color.Red
+        ButtonREMOVE.BackColor = Color.DarkRed
+        ButtonREMOVE.Font = New Font("Century Gothic", 11F, FontStyle.Bold)
         ButtonREMOVE.ForeColor = Color.White
-        ButtonREMOVE.Location = New Point(398, 366)
+        ButtonREMOVE.Location = New Point(411, 514)
         ButtonREMOVE.Name = "ButtonREMOVE"
-        ButtonREMOVE.Size = New Size(192, 63)
+        ButtonREMOVE.Size = New Size(192, 79)
         ButtonREMOVE.TabIndex = 15
-        ButtonREMOVE.Text = "REMOVE"
+        ButtonREMOVE.Text = "DELETE"
         ButtonREMOVE.UseVisualStyleBackColor = False
         ' 
         ' ButtonEDIT
         ' 
-        ButtonEDIT.BackColor = Color.DeepSkyBlue
+        ButtonEDIT.BackColor = Color.FromArgb(CByte(55), CByte(115), CByte(117))
+        ButtonEDIT.Font = New Font("Century Gothic", 11F, FontStyle.Bold)
         ButtonEDIT.ForeColor = Color.White
-        ButtonEDIT.Location = New Point(231, 366)
+        ButtonEDIT.Location = New Point(244, 514)
         ButtonEDIT.Name = "ButtonEDIT"
-        ButtonEDIT.Size = New Size(169, 63)
+        ButtonEDIT.Size = New Size(169, 79)
         ButtonEDIT.TabIndex = 14
         ButtonEDIT.Text = "EDIT"
         ButtonEDIT.UseVisualStyleBackColor = False
         ' 
         ' ButtonADD
         ' 
-        ButtonADD.BackColor = Color.YellowGreen
+        ButtonADD.BackColor = Color.FromArgb(CByte(55), CByte(115), CByte(117))
+        ButtonADD.Font = New Font("Century Gothic", 11F, FontStyle.Bold)
         ButtonADD.ForeColor = Color.White
-        ButtonADD.Location = New Point(63, 366)
+        ButtonADD.Location = New Point(76, 514)
         ButtonADD.Name = "ButtonADD"
-        ButtonADD.Size = New Size(169, 63)
+        ButtonADD.Size = New Size(169, 79)
         ButtonADD.TabIndex = 13
         ButtonADD.Text = "ADD"
         ButtonADD.UseVisualStyleBackColor = False
         ' 
         ' TextBoxDESCRIPTION
         ' 
-        TextBoxDESCRIPTION.Location = New Point(189, 218)
+        TextBoxDESCRIPTION.Location = New Point(226, 333)
         TextBoxDESCRIPTION.Multiline = True
         TextBoxDESCRIPTION.Name = "TextBoxDESCRIPTION"
         TextBoxDESCRIPTION.Size = New Size(368, 128)
@@ -140,46 +144,46 @@ Partial Class PropertyTypeForm
         ' Label7
         ' 
         Label7.AutoSize = True
-        Label7.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label7.Location = New Point(56, 218)
+        Label7.Font = New Font("Century Gothic", 13F, FontStyle.Bold)
+        Label7.Location = New Point(50, 333)
         Label7.Name = "Label7"
-        Label7.Size = New Size(127, 30)
+        Label7.Size = New Size(161, 30)
         Label7.TabIndex = 10
         Label7.Text = "Description:"
         ' 
         ' TextBoxNAME
         ' 
-        TextBoxNAME.Location = New Point(189, 144)
+        TextBoxNAME.Location = New Point(226, 240)
         TextBoxNAME.Multiline = True
         TextBoxNAME.Name = "TextBoxNAME"
-        TextBoxNAME.Size = New Size(249, 43)
+        TextBoxNAME.Size = New Size(249, 52)
         TextBoxNAME.TabIndex = 3
         ' 
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label3.Location = New Point(102, 157)
+        Label3.Font = New Font("Century Gothic", 13F, FontStyle.Bold)
+        Label3.Location = New Point(114, 253)
         Label3.Name = "Label3"
-        Label3.Size = New Size(76, 30)
+        Label3.Size = New Size(97, 30)
         Label3.TabIndex = 2
         Label3.Text = "Name:"
         ' 
         ' TextBoxID
         ' 
-        TextBoxID.Location = New Point(189, 76)
+        TextBoxID.Location = New Point(226, 153)
         TextBoxID.Multiline = True
         TextBoxID.Name = "TextBoxID"
-        TextBoxID.Size = New Size(249, 44)
+        TextBoxID.Size = New Size(249, 50)
         TextBoxID.TabIndex = 1
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label2.Location = New Point(139, 75)
+        Label2.Font = New Font("Century Gothic", 13F, FontStyle.Bold)
+        Label2.Location = New Point(166, 162)
         Label2.Name = "Label2"
-        Label2.Size = New Size(39, 30)
+        Label2.Size = New Size(45, 30)
         Label2.TabIndex = 0
         Label2.Text = "ID:"
         ' 
@@ -213,28 +217,16 @@ Partial Class PropertyTypeForm
         PictureBox1.TabIndex = 0
         PictureBox1.TabStop = False
         ' 
-        ' Button1
-        ' 
-        Button1.BackColor = Color.White
-        Button1.Font = New Font("Castellar", 10F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Button1.Location = New Point(1233, 29)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(54, 44)
-        Button1.TabIndex = 6
-        Button1.Text = "X"
-        Button1.UseVisualStyleBackColor = False
-        ' 
         ' PropertyTypeForm
         ' 
         AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
-        BackColor = Color.PaleTurquoise
-        ClientSize = New Size(1299, 1035)
-        Controls.Add(Button1)
+        BackColor = Color.FromArgb(CByte(42), CByte(72), CByte(78))
+        ClientSize = New Size(1379, 1035)
         Controls.Add(Panel1)
         FormBorderStyle = FormBorderStyle.None
         Name = "PropertyTypeForm"
-        StartPosition = FormStartPosition.CenterScreen
+        StartPosition = FormStartPosition.WindowsDefaultBounds
         Text = "PropertyTypeForm"
         Panel1.ResumeLayout(False)
         Panel1.PerformLayout()

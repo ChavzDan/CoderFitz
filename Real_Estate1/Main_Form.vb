@@ -55,14 +55,14 @@
 
 
     Private Sub Button_Owner_Click(sender As Object, e As EventArgs) Handles Button_Owner.Click
-        ownersf.Hide()
-        propertyF.Hide()
-        property_type.Hide()
-        propImagesF.Hide()
-        salesF.Hide()
-        clientsF.Hide()
+        ownersf.Hide
+        propertyF.Hide
+        property_type.Hide
+        propImagesF.Hide
+        salesF.Hide
+        clientsF.Hide
 
-        ownersf.Show()
+        ownersf.Show
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs)
@@ -106,7 +106,7 @@
 
     End Sub
 
-    Private Sub btnLogout_Click(sender As Object, e As EventArgs) Handles btnLogout.Click
+    Private Sub btnLogout_Click(sender As Object, e As EventArgs)
         ' Create a list to hold forms to close
         Dim formsToClose As New List(Of Form)
 
@@ -118,12 +118,12 @@
         Next
 
         ' Close each form from the list
-        For Each form As Form In formsToClose
+        For Each form In formsToClose
             form.Close()
         Next
 
         ' Show the login form
-        Dim loginForm As New Login_Form() ' Replace LoginForm with the actual name of your login form
+        Dim loginForm As New Login_Form ' Replace LoginForm with the actual name of your login form
         loginForm.Show()
 
         ' Optionally close the current form

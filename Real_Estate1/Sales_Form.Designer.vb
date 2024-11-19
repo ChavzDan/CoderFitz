@@ -24,7 +24,6 @@ Partial Class Sales_Form
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Sales_Form))
         Panel1 = New Panel()
-        Button1 = New Button()
         Panel3 = New Panel()
         Button3 = New Button()
         Button2 = New Button()
@@ -59,31 +58,19 @@ Partial Class Sales_Form
         ' 
         ' Panel1
         ' 
-        Panel1.BackColor = Color.PaleTurquoise
-        Panel1.Controls.Add(Button1)
+        Panel1.BackColor = Color.FromArgb(CByte(42), CByte(72), CByte(78))
         Panel1.Controls.Add(Panel3)
         Panel1.Controls.Add(Panel2)
         Panel1.Controls.Add(Label1)
         Panel1.Controls.Add(PictureBox1)
-        Panel1.Location = New Point(39, 12)
+        Panel1.Location = New Point(12, 12)
         Panel1.Name = "Panel1"
-        Panel1.Size = New Size(1230, 851)
+        Panel1.Size = New Size(1339, 851)
         Panel1.TabIndex = 3
-        ' 
-        ' Button1
-        ' 
-        Button1.BackColor = Color.White
-        Button1.Font = New Font("Castellar", 10F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Button1.Location = New Point(1179, 0)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(48, 44)
-        Button1.TabIndex = 6
-        Button1.Text = "X"
-        Button1.UseVisualStyleBackColor = False
         ' 
         ' Panel3
         ' 
-        Panel3.BackColor = Color.LemonChiffon
+        Panel3.BackColor = Color.FromArgb(CByte(168), CByte(216), CByte(205))
         Panel3.Controls.Add(Button3)
         Panel3.Controls.Add(Button2)
         Panel3.Controls.Add(DataGridView1)
@@ -105,29 +92,32 @@ Partial Class Sales_Form
         Panel3.Controls.Add(Label3)
         Panel3.Controls.Add(TextBoxID)
         Panel3.Controls.Add(Label2)
+        Panel3.Font = New Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Panel3.Location = New Point(12, 98)
         Panel3.Name = "Panel3"
-        Panel3.Size = New Size(1214, 581)
+        Panel3.Size = New Size(1324, 701)
         Panel3.TabIndex = 4
         ' 
         ' Button3
         ' 
-        Button3.BackColor = Color.Orange
+        Button3.BackColor = Color.FromArgb(CByte(55), CByte(115), CByte(117))
+        Button3.Font = New Font("Century Gothic", 11F, FontStyle.Bold)
         Button3.ForeColor = Color.White
-        Button3.Location = New Point(905, 510)
+        Button3.Location = New Point(984, 592)
         Button3.Name = "Button3"
-        Button3.Size = New Size(235, 50)
+        Button3.Size = New Size(315, 72)
         Button3.TabIndex = 21
         Button3.Text = "Show Properties"
         Button3.UseVisualStyleBackColor = False
         ' 
         ' Button2
         ' 
-        Button2.BackColor = Color.Orange
+        Button2.BackColor = Color.FromArgb(CByte(55), CByte(115), CByte(117))
+        Button2.Font = New Font("Century Gothic", 11F, FontStyle.Bold)
         Button2.ForeColor = Color.White
-        Button2.Location = New Point(663, 510)
+        Button2.Location = New Point(636, 592)
         Button2.Name = "Button2"
-        Button2.Size = New Size(236, 50)
+        Button2.Size = New Size(342, 72)
         Button2.TabIndex = 20
         Button2.Text = "Show Clients"
         Button2.UseVisualStyleBackColor = False
@@ -136,69 +126,73 @@ Partial Class Sales_Form
         ' 
         DataGridView1.BackgroundColor = SystemColors.ControlLight
         DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridView1.Location = New Point(624, 266)
+        DataGridView1.Location = New Point(636, 337)
         DataGridView1.Name = "DataGridView1"
         DataGridView1.RowHeadersWidth = 62
-        DataGridView1.Size = New Size(546, 238)
+        DataGridView1.Size = New Size(663, 249)
         DataGridView1.TabIndex = 19
         ' 
         ' Label8
         ' 
         Label8.AutoSize = True
-        Label8.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold Or FontStyle.Italic Or FontStyle.Underline, GraphicsUnit.Point, CByte(0))
-        Label8.Location = New Point(624, 23)
+        Label8.Font = New Font("Century Gothic", 11F, FontStyle.Bold Or FontStyle.Italic Or FontStyle.Underline, GraphicsUnit.Point, CByte(0))
+        Label8.Location = New Point(636, 30)
         Label8.Name = "Label8"
-        Label8.Size = New Size(86, 25)
+        Label8.Size = New Size(105, 27)
         Label8.TabIndex = 18
         Label8.Text = "Sales List"
         ' 
         ' DateTimePicker1
         ' 
-        DateTimePicker1.Location = New Point(187, 241)
+        DateTimePicker1.Location = New Point(222, 305)
         DateTimePicker1.Name = "DateTimePicker1"
-        DateTimePicker1.Size = New Size(292, 31)
+        DateTimePicker1.Size = New Size(292, 30)
         DateTimePicker1.TabIndex = 17
         ' 
         ' ButtonCLEAR_FIELDS
         ' 
-        ButtonCLEAR_FIELDS.BackColor = Color.Gold
-        ButtonCLEAR_FIELDS.ForeColor = Color.Black
-        ButtonCLEAR_FIELDS.Location = New Point(69, 503)
+        ButtonCLEAR_FIELDS.BackColor = Color.FromArgb(CByte(55), CByte(115), CByte(117))
+        ButtonCLEAR_FIELDS.Font = New Font("Century Gothic", 11F, FontStyle.Bold)
+        ButtonCLEAR_FIELDS.ForeColor = Color.White
+        ButtonCLEAR_FIELDS.Location = New Point(70, 602)
         ButtonCLEAR_FIELDS.Name = "ButtonCLEAR_FIELDS"
-        ButtonCLEAR_FIELDS.Size = New Size(438, 50)
+        ButtonCLEAR_FIELDS.Size = New Size(467, 62)
         ButtonCLEAR_FIELDS.TabIndex = 16
         ButtonCLEAR_FIELDS.Text = "Clear Fields"
         ButtonCLEAR_FIELDS.UseVisualStyleBackColor = False
         ' 
         ' ButtonREMOVE
         ' 
-        ButtonREMOVE.BackColor = Color.Red
+        ButtonREMOVE.BackColor = Color.DarkRed
+        ButtonREMOVE.Font = New Font("Century Gothic", 11F, FontStyle.Bold)
         ButtonREMOVE.ForeColor = Color.White
-        ButtonREMOVE.Location = New Point(356, 447)
+        ButtonREMOVE.Location = New Point(375, 524)
         ButtonREMOVE.Name = "ButtonREMOVE"
-        ButtonREMOVE.Size = New Size(151, 50)
+        ButtonREMOVE.Size = New Size(162, 72)
         ButtonREMOVE.TabIndex = 15
-        ButtonREMOVE.Text = "REMOVE"
+        ButtonREMOVE.Text = "DELETE"
         ButtonREMOVE.UseVisualStyleBackColor = False
         ' 
         ' ButtonEDIT
         ' 
-        ButtonEDIT.BackColor = Color.DeepSkyBlue
+        ButtonEDIT.BackColor = Color.FromArgb(CByte(55), CByte(115), CByte(117))
+        ButtonEDIT.Font = New Font("Century Gothic", 11F, FontStyle.Bold)
         ButtonEDIT.ForeColor = Color.White
-        ButtonEDIT.Location = New Point(211, 447)
+        ButtonEDIT.Location = New Point(216, 524)
         ButtonEDIT.Name = "ButtonEDIT"
-        ButtonEDIT.Size = New Size(142, 50)
+        ButtonEDIT.Size = New Size(158, 72)
         ButtonEDIT.TabIndex = 14
         ButtonEDIT.Text = "EDIT"
         ButtonEDIT.UseVisualStyleBackColor = False
         ' 
         ' ButtonADD
         ' 
-        ButtonADD.BackColor = Color.YellowGreen
+        ButtonADD.BackColor = Color.FromArgb(CByte(55), CByte(115), CByte(117))
+        ButtonADD.Font = New Font("Century Gothic", 11F, FontStyle.Bold)
         ButtonADD.ForeColor = Color.White
-        ButtonADD.Location = New Point(69, 447)
+        ButtonADD.Location = New Point(70, 524)
         ButtonADD.Name = "ButtonADD"
-        ButtonADD.Size = New Size(136, 50)
+        ButtonADD.Size = New Size(146, 72)
         ButtonADD.TabIndex = 13
         ButtonADD.Text = "ADD"
         ButtonADD.UseVisualStyleBackColor = False
@@ -207,99 +201,109 @@ Partial Class Sales_Form
         ' 
         DataGridViewCLIENTS.BackgroundColor = SystemColors.ControlLight
         DataGridViewCLIENTS.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridViewCLIENTS.Location = New Point(624, 51)
+        DataGridViewCLIENTS.Location = New Point(636, 65)
         DataGridViewCLIENTS.Name = "DataGridViewCLIENTS"
         DataGridViewCLIENTS.RowHeadersWidth = 62
-        DataGridViewCLIENTS.Size = New Size(546, 189)
+        DataGridViewCLIENTS.Size = New Size(663, 260)
         DataGridViewCLIENTS.TabIndex = 12
         ' 
         ' TextBoxADDRESS
         ' 
-        TextBoxADDRESS.Location = New Point(187, 293)
+        TextBoxADDRESS.Location = New Point(222, 354)
         TextBoxADDRESS.Multiline = True
         TextBoxADDRESS.Name = "TextBoxADDRESS"
-        TextBoxADDRESS.Size = New Size(292, 127)
+        TextBoxADDRESS.Size = New Size(315, 141)
         TextBoxADDRESS.TabIndex = 11
         ' 
         ' Label7
         ' 
         Label7.AutoSize = True
-        Label7.Location = New Point(70, 296)
+        Label7.Font = New Font("Century Gothic", 13F, FontStyle.Bold)
+        Label7.Location = New Point(70, 368)
         Label7.Name = "Label7"
-        Label7.Size = New Size(95, 25)
+        Label7.Size = New Size(146, 30)
         Label7.TabIndex = 10
         Label7.Text = "Comment:"
         ' 
         ' Label6
         ' 
         Label6.AutoSize = True
-        Label6.Location = New Point(112, 241)
+        Label6.Font = New Font("Century Gothic", 13F, FontStyle.Bold)
+        Label6.Location = New Point(127, 304)
         Label6.Name = "Label6"
-        Label6.Size = New Size(53, 25)
+        Label6.Size = New Size(80, 30)
         Label6.TabIndex = 8
         Label6.Text = "Date:"
         ' 
         ' TextBoxPHONE
         ' 
-        TextBoxPHONE.Location = New Point(187, 189)
+        TextBoxPHONE.Location = New Point(222, 225)
+        TextBoxPHONE.Multiline = True
         TextBoxPHONE.Name = "TextBoxPHONE"
-        TextBoxPHONE.Size = New Size(179, 31)
+        TextBoxPHONE.Size = New Size(292, 48)
         TextBoxPHONE.TabIndex = 7
         ' 
         ' Label5
         ' 
         Label5.AutoSize = True
-        Label5.Location = New Point(55, 192)
+        Label5.Font = New Font("Century Gothic", 13F, FontStyle.Bold)
+        Label5.Location = New Point(35, 225)
         Label5.Name = "Label5"
-        Label5.Size = New Size(110, 25)
+        Label5.Size = New Size(172, 30)
         Label5.TabIndex = 6
         Label5.Text = "Selling Price:"
         ' 
         ' TextBoxlNAME
         ' 
-        TextBoxlNAME.Location = New Point(187, 133)
+        TextBoxlNAME.Location = New Point(222, 154)
+        TextBoxlNAME.Multiline = True
         TextBoxlNAME.Name = "TextBoxlNAME"
-        TextBoxlNAME.Size = New Size(145, 31)
+        TextBoxlNAME.Size = New Size(292, 50)
         TextBoxlNAME.TabIndex = 5
         ' 
         ' Label4
         ' 
         Label4.AutoSize = True
-        Label4.Location = New Point(82, 136)
+        Label4.Font = New Font("Century Gothic", 13F, FontStyle.Bold)
+        Label4.Location = New Point(82, 164)
         Label4.Name = "Label4"
-        Label4.Size = New Size(83, 25)
+        Label4.Size = New Size(125, 30)
         Label4.TabIndex = 4
         Label4.Text = "Client ID:"
         ' 
         ' TextBoxfNAME
         ' 
-        TextBoxfNAME.Location = New Point(187, 82)
+        TextBoxfNAME.Location = New Point(222, 85)
+        TextBoxfNAME.Multiline = True
         TextBoxfNAME.Name = "TextBoxfNAME"
-        TextBoxfNAME.Size = New Size(145, 31)
+        TextBoxfNAME.Size = New Size(292, 51)
         TextBoxfNAME.TabIndex = 3
         ' 
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Location = New Point(77, 85)
+        Label3.Font = New Font("Century Gothic", 13F, FontStyle.Bold)
+        Label3.Location = New Point(71, 96)
         Label3.Name = "Label3"
-        Label3.Size = New Size(91, 25)
+        Label3.Size = New Size(136, 30)
         Label3.TabIndex = 2
         Label3.Text = "Owner ID:"
         ' 
         ' TextBoxID
         ' 
-        TextBoxID.Location = New Point(187, 27)
+        TextBoxID.Location = New Point(222, 21)
+        TextBoxID.Multiline = True
         TextBoxID.Name = "TextBoxID"
-        TextBoxID.Size = New Size(145, 31)
+        TextBoxID.Size = New Size(292, 47)
         TextBoxID.TabIndex = 1
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Location = New Point(129, 30)
+        Label2.Font = New Font("Century Gothic", 13F, FontStyle.Bold)
+        Label2.Location = New Point(162, 30)
         Label2.Name = "Label2"
-        Label2.Size = New Size(34, 25)
+        Label2.Size = New Size(45, 30)
         Label2.TabIndex = 0
         Label2.Text = "ID:"
         ' 
@@ -337,12 +341,12 @@ Partial Class Sales_Form
         ' 
         AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
-        BackColor = Color.PaleTurquoise
-        ClientSize = New Size(1303, 923)
+        BackColor = Color.FromArgb(CByte(42), CByte(72), CByte(78))
+        ClientSize = New Size(1363, 923)
         Controls.Add(Panel1)
         FormBorderStyle = FormBorderStyle.None
         Name = "Sales_Form"
-        StartPosition = FormStartPosition.CenterScreen
+        StartPosition = FormStartPosition.WindowsDefaultBounds
         Text = "Sales_Form"
         Panel1.ResumeLayout(False)
         Panel1.PerformLayout()
@@ -355,7 +359,6 @@ Partial Class Sales_Form
     End Sub
 
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents Button1 As Button
     Friend WithEvents Panel3 As Panel
     Friend WithEvents ButtonCLEAR_FIELDS As Button
     Friend WithEvents ButtonREMOVE As Button

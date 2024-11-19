@@ -22,17 +22,15 @@ Partial Class Main_Form
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Main_Form))
         Panel_Menu = New Panel()
-        btnLogout = New Button()
         Panel2 = New Panel()
+        Button1 = New Button()
         Button_Owner = New Button()
         SALES = New Button()
         Button2 = New Button()
         Button3 = New Button()
         ButtonIMAGES = New Button()
         Button4 = New Button()
-        Panel1 = New Panel()
         PanelLeft = New Panel()
         PanelRight = New Panel()
         Panel_Menu.SuspendLayout()
@@ -41,122 +39,126 @@ Partial Class Main_Form
         ' 
         ' Panel_Menu
         ' 
-        Panel_Menu.BackColor = Color.Transparent
-        Panel_Menu.BackgroundImage = CType(resources.GetObject("Panel_Menu.BackgroundImage"), Image)
-        Panel_Menu.BackgroundImageLayout = ImageLayout.Stretch
-        Panel_Menu.Controls.Add(btnLogout)
+        Panel_Menu.BackColor = Color.FromArgb(CByte(55), CByte(115), CByte(117))
+        Panel_Menu.BackgroundImageLayout = ImageLayout.None
         Panel_Menu.Controls.Add(Panel2)
-        Panel_Menu.Controls.Add(Panel1)
         Panel_Menu.Dock = DockStyle.Fill
         Panel_Menu.Location = New Point(0, 0)
         Panel_Menu.Name = "Panel_Menu"
         Panel_Menu.Size = New Size(1818, 1050)
         Panel_Menu.TabIndex = 0
         ' 
-        ' btnLogout
-        ' 
-        btnLogout.BackgroundImage = CType(resources.GetObject("btnLogout.BackgroundImage"), Image)
-        btnLogout.BackgroundImageLayout = ImageLayout.Stretch
-        btnLogout.Location = New Point(1726, 987)
-        btnLogout.Name = "btnLogout"
-        btnLogout.Size = New Size(80, 63)
-        btnLogout.TabIndex = 6
-        btnLogout.UseVisualStyleBackColor = True
-        ' 
         ' Panel2
         ' 
         Panel2.BackColor = Color.Transparent
-        Panel2.BackgroundImage = CType(resources.GetObject("Panel2.BackgroundImage"), Image)
+        Panel2.Controls.Add(Button1)
         Panel2.Controls.Add(Button_Owner)
         Panel2.Controls.Add(SALES)
         Panel2.Controls.Add(Button2)
         Panel2.Controls.Add(Button3)
         Panel2.Controls.Add(ButtonIMAGES)
         Panel2.Controls.Add(Button4)
-        Panel2.Location = New Point(130, 0)
+        Panel2.Location = New Point(3, 83)
         Panel2.Name = "Panel2"
-        Panel2.Size = New Size(1525, 132)
+        Panel2.Size = New Size(240, 955)
         Panel2.TabIndex = 0
+        ' 
+        ' Button1
+        ' 
+        Button1.BackColor = Color.FromArgb(CByte(55), CByte(115), CByte(117))
+        Button1.FlatStyle = FlatStyle.Flat
+        Button1.Font = New Font("Century Gothic", 13F, FontStyle.Bold)
+        Button1.ForeColor = Color.White
+        Button1.Location = New Point(-3, 824)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(231, 118)
+        Button1.TabIndex = 7
+        Button1.Text = "ABOUT US"
+        Button1.UseVisualStyleBackColor = False
         ' 
         ' Button_Owner
         ' 
-        Button_Owner.BackColor = Color.NavajoWhite
-        Button_Owner.Font = New Font("Cooper Black", 11F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Button_Owner.ForeColor = Color.MidnightBlue
-        Button_Owner.Location = New Point(0, 53)
+        Button_Owner.BackColor = Color.FromArgb(CByte(42), CByte(72), CByte(78))
+        Button_Owner.FlatAppearance.BorderColor = Color.FromArgb(CByte(42), CByte(72), CByte(78))
+        Button_Owner.FlatStyle = FlatStyle.Flat
+        Button_Owner.Font = New Font("Century Gothic", 13F, FontStyle.Bold)
+        Button_Owner.ForeColor = Color.White
+        Button_Owner.Location = New Point(0, 3)
         Button_Owner.Name = "Button_Owner"
-        Button_Owner.Size = New Size(231, 81)
+        Button_Owner.Size = New Size(231, 118)
         Button_Owner.TabIndex = 0
         Button_Owner.Text = "OWNERS"
         Button_Owner.UseVisualStyleBackColor = False
         ' 
         ' SALES
         ' 
-        SALES.BackColor = Color.NavajoWhite
-        SALES.Font = New Font("Cooper Black", 11F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        SALES.ForeColor = Color.MidnightBlue
-        SALES.Location = New Point(1257, 53)
+        SALES.BackColor = Color.FromArgb(CByte(42), CByte(72), CByte(78))
+        SALES.FlatAppearance.BorderColor = Color.FromArgb(CByte(42), CByte(72), CByte(78))
+        SALES.FlatStyle = FlatStyle.Flat
+        SALES.Font = New Font("Century Gothic", 13F, FontStyle.Bold)
+        SALES.ForeColor = Color.White
+        SALES.Location = New Point(-3, 692)
         SALES.Name = "SALES"
-        SALES.Size = New Size(245, 81)
+        SALES.Size = New Size(231, 112)
         SALES.TabIndex = 6
         SALES.Text = "SALES"
         SALES.UseVisualStyleBackColor = False
         ' 
         ' Button2
         ' 
-        Button2.BackColor = Color.NavajoWhite
-        Button2.Font = New Font("Cooper Black", 11F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Button2.ForeColor = Color.MidnightBlue
-        Button2.Location = New Point(237, 54)
+        Button2.BackColor = Color.FromArgb(CByte(42), CByte(72), CByte(78))
+        Button2.FlatAppearance.BorderColor = Color.FromArgb(CByte(42), CByte(72), CByte(78))
+        Button2.FlatStyle = FlatStyle.Flat
+        Button2.Font = New Font("Century Gothic", 13F, FontStyle.Bold)
+        Button2.ForeColor = Color.White
+        Button2.Location = New Point(1, 138)
         Button2.Name = "Button2"
-        Button2.Size = New Size(246, 80)
+        Button2.Size = New Size(231, 111)
         Button2.TabIndex = 1
         Button2.Text = "CLIENTS"
         Button2.UseVisualStyleBackColor = False
         ' 
         ' Button3
         ' 
-        Button3.BackColor = Color.NavajoWhite
-        Button3.Font = New Font("Cooper Black", 11F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Button3.ForeColor = Color.MidnightBlue
-        Button3.Location = New Point(489, 56)
+        Button3.BackColor = Color.FromArgb(CByte(42), CByte(72), CByte(78))
+        Button3.FlatAppearance.BorderColor = Color.FromArgb(CByte(42), CByte(72), CByte(78))
+        Button3.FlatStyle = FlatStyle.Flat
+        Button3.Font = New Font("Century Gothic", 13F, FontStyle.Bold)
+        Button3.ForeColor = Color.White
+        Button3.Location = New Point(0, 266)
         Button3.Name = "Button3"
-        Button3.Size = New Size(242, 78)
+        Button3.Size = New Size(231, 124)
         Button3.TabIndex = 2
         Button3.Text = "PROPERTIES"
         Button3.UseVisualStyleBackColor = False
         ' 
         ' ButtonIMAGES
         ' 
-        ButtonIMAGES.BackColor = Color.NavajoWhite
-        ButtonIMAGES.Font = New Font("Cooper Black", 11F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        ButtonIMAGES.ForeColor = Color.MidnightBlue
-        ButtonIMAGES.Location = New Point(997, 55)
+        ButtonIMAGES.BackColor = Color.FromArgb(CByte(42), CByte(72), CByte(78))
+        ButtonIMAGES.FlatAppearance.BorderColor = Color.FromArgb(CByte(42), CByte(72), CByte(78))
+        ButtonIMAGES.FlatStyle = FlatStyle.Flat
+        ButtonIMAGES.Font = New Font("Century Gothic", 13F, FontStyle.Bold)
+        ButtonIMAGES.ForeColor = Color.White
+        ButtonIMAGES.Location = New Point(-3, 551)
         ButtonIMAGES.Name = "ButtonIMAGES"
-        ButtonIMAGES.Size = New Size(254, 81)
+        ButtonIMAGES.Size = New Size(231, 123)
         ButtonIMAGES.TabIndex = 4
         ButtonIMAGES.Text = "IMAGES"
         ButtonIMAGES.UseVisualStyleBackColor = False
         ' 
         ' Button4
         ' 
-        Button4.BackColor = Color.NavajoWhite
-        Button4.Font = New Font("Cooper Black", 11F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Button4.ForeColor = Color.MidnightBlue
-        Button4.Location = New Point(737, 56)
+        Button4.BackColor = Color.FromArgb(CByte(42), CByte(72), CByte(78))
+        Button4.FlatAppearance.BorderColor = Color.FromArgb(CByte(42), CByte(72), CByte(78))
+        Button4.FlatStyle = FlatStyle.Flat
+        Button4.Font = New Font("Century Gothic", 13F, FontStyle.Bold)
+        Button4.ForeColor = Color.White
+        Button4.Location = New Point(-3, 408)
         Button4.Name = "Button4"
-        Button4.Size = New Size(254, 81)
+        Button4.Size = New Size(231, 124)
         Button4.TabIndex = 3
         Button4.Text = "TYPES"
         Button4.UseVisualStyleBackColor = False
-        ' 
-        ' Panel1
-        ' 
-        Panel1.BackColor = Color.DarkGray
-        Panel1.Location = New Point(130, 138)
-        Panel1.Name = "Panel1"
-        Panel1.Size = New Size(1515, 10)
-        Panel1.TabIndex = 5
         ' 
         ' PanelLeft
         ' 
@@ -179,7 +181,6 @@ Partial Class Main_Form
         AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.White
-        BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
         ClientSize = New Size(1818, 1050)
         Controls.Add(PanelRight)
         Controls.Add(PanelLeft)
@@ -199,10 +200,9 @@ Partial Class Main_Form
     Friend WithEvents Button4 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button2 As Button
-    Friend WithEvents Panel1 As Panel
     Friend WithEvents PanelLeft As Panel
     Friend WithEvents PanelRight As Panel
     Friend WithEvents SALES As Button
     Friend WithEvents Panel2 As Panel
-    Friend WithEvents btnLogout As Button
+    Friend WithEvents Button1 As Button
 End Class

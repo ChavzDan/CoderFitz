@@ -7,6 +7,7 @@
     End Sub
 
     Private Sub LoadOwners()
+        Me.Location = New Point((Screen.PrimaryScreen.WorkingArea.Width - Me.Width) / 1.5, (Screen.PrimaryScreen.WorkingArea.Height - Me.Height) / 2)
         Dim selectOwnersQuery As String = "SELECT * FROM prop_owner"
         DataGridViewOWNERS.DataSource = func.getData(selectOwnersQuery)
 
@@ -47,8 +48,8 @@
 
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Close()
+    Private Sub Button1_Click(sender As Object, e As EventArgs)
+        Close
     End Sub
 
     ' DataGridView click event
@@ -127,5 +128,9 @@
         Else
             MessageBox.Show("Please select a valid owner to edit.", "Invalid Owner ID", MessageBoxButtons.OK, MessageBoxIcon.Warning)
         End If
+    End Sub
+
+    Private Sub Panel3_Paint(sender As Object, e As PaintEventArgs) Handles Panel3.Paint
+
     End Sub
 End Class

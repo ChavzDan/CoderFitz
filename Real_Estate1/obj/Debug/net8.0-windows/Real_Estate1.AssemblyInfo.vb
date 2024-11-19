@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("Real_Estate1"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c92f958909e00d6fb2cece8336e444b928735971"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("Real_Estate1"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("Real_Estate1"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

@@ -4,6 +4,8 @@
 
     Private Sub PropertyTypeForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ' Display data from listboxtype
+        Me.Location = New Point((Screen.PrimaryScreen.WorkingArea.Width - Me.Width) / 1.5, (Screen.PrimaryScreen.WorkingArea.Height - Me.Height) / 2)
+
         RefreshListBox()
 
 
@@ -88,4 +90,7 @@
         End If
     End Sub
 
+    Private Sub Panel3_Paint(sender As Object, e As PaintEventArgs) Handles Panel3.Paint
+
+    End Sub
 End Class

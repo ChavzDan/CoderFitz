@@ -3,13 +3,15 @@
 Public Class PropertyForm
     Dim theType As New The_Type
     Dim theProperty As New The_Property
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Close()
+    Private Sub Button1_Click(sender As Object, e As EventArgs)
+        Close
     End Sub
 
 
 
     Private Sub PropertyForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Me.Location = New Point((Screen.PrimaryScreen.WorkingArea.Width - Me.Width) / 1.5, (Screen.PrimaryScreen.WorkingArea.Height - Me.Height) / 2)
+
         'display the property types in the combox
         ComboBoxTYPE.DataSource = theType.getAllTypes()
         ComboBoxTYPE.DisplayMember = "name"
@@ -247,5 +249,9 @@ Public Class PropertyForm
 
 
         End Try
+    End Sub
+
+    Private Sub ComboBoxTYPE_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBoxTYPE.SelectedIndexChanged
+
     End Sub
 End Class

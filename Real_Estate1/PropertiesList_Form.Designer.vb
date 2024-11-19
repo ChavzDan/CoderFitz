@@ -27,7 +27,6 @@ Partial Class PropertiesList_Form
         DataGridViewPROPERTIES = New DataGridView()
         Label1 = New Label()
         PictureBox1 = New PictureBox()
-        Button1 = New Button()
         Panel1.SuspendLayout()
         CType(DataGridViewPROPERTIES, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
@@ -35,11 +34,11 @@ Partial Class PropertiesList_Form
         ' 
         ' Panel1
         ' 
-        Panel1.BackColor = Color.LemonChiffon
+        Panel1.BackColor = Color.FromArgb(CByte(168), CByte(216), CByte(205))
         Panel1.Controls.Add(DataGridViewPROPERTIES)
-        Panel1.Location = New Point(24, 95)
+        Panel1.Location = New Point(26, 80)
         Panel1.Name = "Panel1"
-        Panel1.Size = New Size(1247, 607)
+        Panel1.Size = New Size(1462, 516)
         Panel1.TabIndex = 7
         ' 
         ' DataGridViewPROPERTIES
@@ -47,10 +46,10 @@ Partial Class PropertiesList_Form
         DataGridViewPROPERTIES.AllowUserToAddRows = False
         DataGridViewPROPERTIES.BackgroundColor = Color.White
         DataGridViewPROPERTIES.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridViewPROPERTIES.Location = New Point(29, 55)
+        DataGridViewPROPERTIES.Location = New Point(23, 20)
         DataGridViewPROPERTIES.Name = "DataGridViewPROPERTIES"
         DataGridViewPROPERTIES.RowHeadersWidth = 62
-        DataGridViewPROPERTIES.Size = New Size(1192, 518)
+        DataGridViewPROPERTIES.Size = New Size(1414, 479)
         DataGridViewPROPERTIES.TabIndex = 0
         ' 
         ' Label1
@@ -58,7 +57,7 @@ Partial Class PropertiesList_Form
         Label1.AutoSize = True
         Label1.Font = New Font("Gill Sans Ultra Bold", 26F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.White
-        Label1.Location = New Point(97, 12)
+        Label1.Location = New Point(107, 10)
         Label1.Name = "Label1"
         Label1.Size = New Size(581, 74)
         Label1.TabIndex = 6
@@ -67,37 +66,26 @@ Partial Class PropertiesList_Form
         ' PictureBox1
         ' 
         PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
-        PictureBox1.Location = New Point(12, 12)
+        PictureBox1.Location = New Point(13, 10)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(89, 76)
+        PictureBox1.Size = New Size(98, 64)
         PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox1.TabIndex = 5
         PictureBox1.TabStop = False
         ' 
-        ' Button1
-        ' 
-        Button1.BackColor = Color.White
-        Button1.Font = New Font("Castellar", 10F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Button1.Location = New Point(1204, 12)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(47, 41)
-        Button1.TabIndex = 8
-        Button1.Text = "X"
-        Button1.UseVisualStyleBackColor = False
-        ' 
         ' PropertiesList_Form
         ' 
-        AutoScaleDimensions = New SizeF(10F, 25F)
+        AutoScaleDimensions = New SizeF(11F, 21F)
         AutoScaleMode = AutoScaleMode.Font
-        BackColor = Color.Thistle
-        ClientSize = New Size(1299, 747)
-        Controls.Add(Button1)
+        BackColor = Color.FromArgb(CByte(42), CByte(72), CByte(78))
+        ClientSize = New Size(1502, 683)
         Controls.Add(Panel1)
         Controls.Add(Label1)
         Controls.Add(PictureBox1)
+        Font = New Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         FormBorderStyle = FormBorderStyle.None
         Name = "PropertiesList_Form"
-        StartPosition = FormStartPosition.CenterScreen
+        StartPosition = FormStartPosition.WindowsDefaultBounds
         Text = "PropertiesList_Form"
         Panel1.ResumeLayout(False)
         CType(DataGridViewPROPERTIES, ComponentModel.ISupportInitialize).EndInit()
@@ -110,5 +98,4 @@ Partial Class PropertiesList_Form
     Friend WithEvents DataGridViewPROPERTIES As DataGridView
     Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents Button1 As Button
 End Class
